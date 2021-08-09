@@ -1,0 +1,168 @@
+[INFO ] 2021-04-14 11:25:33.427 [main] com.qzsoft.tah.WsdSynApplication - Starting WsdSynApplication on PC-202007141608 with PID 22188 (D:\beijwenshidu\tah-collection\tah-wsd-syn\target\classes started by 密码是1 in D:\beijwenshidu\tah-collection)
+[INFO ] 2021-04-14 11:25:33.432 [main] com.qzsoft.tah.WsdSynApplication - The following profiles are active: dev
+[INFO ] 2021-04-14 11:25:34.131 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-04-14 11:25:34.236 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 94ms. Found 8 JPA repository interfaces.
+[INFO ] 2021-04-14 11:25:34.938 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2021-04-14 11:25:35.197 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 50008 (http)
+[INFO ] 2021-04-14 11:25:35.206 [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-50008"]
+[INFO ] 2021-04-14 11:25:35.207 [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2021-04-14 11:25:35.207 [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 2021-04-14 11:25:35.346 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2021-04-14 11:25:35.346 [main] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1859 ms
+[INFO ] 2021-04-14 11:25:35.605 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2021-04-14 11:25:35.745 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-04-14 11:25:35.814 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.4.9.Final}
+[INFO ] 2021-04-14 11:25:35.944 [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2021-04-14 11:25:36.071 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO ] 2021-04-14 11:25:36.840 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-04-14 11:25:36.850 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-04-14 11:25:37.291 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-04-14 11:25:37.298 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[INFO ] 2021-04-14 11:25:37.299 [main] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2021-04-14 11:25:37.310 [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2021-04-14 11:29:08.832 [main] com.qzsoft.tah.WsdSynApplication - Starting WsdSynApplication on PC-202007141608 with PID 2212 (D:\beijwenshidu\tah-collection\tah-wsd-syn\target\classes started by 密码是1 in D:\beijwenshidu\tah-collection)
+[INFO ] 2021-04-14 11:29:08.836 [main] com.qzsoft.tah.WsdSynApplication - The following profiles are active: dev
+[INFO ] 2021-04-14 11:29:09.539 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-04-14 11:29:09.646 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 95ms. Found 8 JPA repository interfaces.
+[INFO ] 2021-04-14 11:29:09.986 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2021-04-14 11:29:10.244 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 50008 (http)
+[INFO ] 2021-04-14 11:29:10.255 [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-50008"]
+[INFO ] 2021-04-14 11:29:10.255 [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2021-04-14 11:29:10.256 [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 2021-04-14 11:29:10.399 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2021-04-14 11:29:10.399 [main] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1485 ms
+[INFO ] 2021-04-14 11:29:10.658 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2021-04-14 11:29:10.798 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-04-14 11:29:10.871 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.4.9.Final}
+[INFO ] 2021-04-14 11:29:11.020 [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2021-04-14 11:29:11.147 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO ] 2021-04-14 11:29:11.936 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-04-14 11:29:11.945 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-04-14 11:29:12.400 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-04-14 11:29:12.406 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[INFO ] 2021-04-14 11:29:12.408 [main] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2021-04-14 11:29:12.420 [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2021-04-14 11:36:17.188 [main] com.qzsoft.tah.WsdSynApplication - Starting WsdSynApplication on PC-202007141608 with PID 8476 (D:\beijwenshidu\tah-collection\tah-wsd-syn\target\classes started by 密码是1 in D:\beijwenshidu\tah-collection)
+[INFO ] 2021-04-14 11:36:17.191 [main] com.qzsoft.tah.WsdSynApplication - The following profiles are active: dev
+[INFO ] 2021-04-14 11:36:18.083 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-04-14 11:36:18.192 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 99ms. Found 8 JPA repository interfaces.
+[INFO ] 2021-04-14 11:36:18.609 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2021-04-14 11:36:18.877 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 50008 (http)
+[INFO ] 2021-04-14 11:36:18.887 [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-50008"]
+[INFO ] 2021-04-14 11:36:18.888 [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2021-04-14 11:36:18.888 [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 2021-04-14 11:36:19.033 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2021-04-14 11:36:19.034 [main] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1764 ms
+[INFO ] 2021-04-14 11:36:19.323 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2021-04-14 11:36:19.466 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-04-14 11:36:19.535 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.4.9.Final}
+[INFO ] 2021-04-14 11:36:19.674 [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2021-04-14 11:36:19.797 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO ] 2021-04-14 11:36:20.579 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-04-14 11:36:20.587 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-04-14 11:36:21.021 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-04-14 11:36:21.027 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[INFO ] 2021-04-14 11:36:21.028 [main] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2021-04-14 11:36:21.058 [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2021-04-14 11:38:03.839 [main] com.qzsoft.tah.WsdSynApplication - Starting WsdSynApplication on PC-202007141608 with PID 7476 (D:\beijwenshidu\tah-collection\tah-wsd-syn\target\classes started by 密码是1 in D:\beijwenshidu\tah-collection)
+[INFO ] 2021-04-14 11:38:03.843 [main] com.qzsoft.tah.WsdSynApplication - The following profiles are active: dev
+[INFO ] 2021-04-14 11:38:04.545 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-04-14 11:38:04.648 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 92ms. Found 8 JPA repository interfaces.
+[INFO ] 2021-04-14 11:38:04.981 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2021-04-14 11:38:05.240 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 50008 (http)
+[INFO ] 2021-04-14 11:38:05.251 [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-50008"]
+[INFO ] 2021-04-14 11:38:05.251 [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2021-04-14 11:38:05.251 [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 2021-04-14 11:38:05.394 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2021-04-14 11:38:05.394 [main] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1502 ms
+[INFO ] 2021-04-14 11:38:05.661 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2021-04-14 11:38:05.814 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-04-14 11:38:05.883 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.4.9.Final}
+[INFO ] 2021-04-14 11:38:06.017 [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2021-04-14 11:38:06.140 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO ] 2021-04-14 11:38:06.920 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-04-14 11:38:06.928 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-04-14 11:38:07.348 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-04-14 11:38:07.354 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[INFO ] 2021-04-14 11:38:07.355 [main] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2021-04-14 11:38:07.367 [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2021-04-14 11:38:47.563 [main] com.qzsoft.tah.WsdSynApplication - Starting WsdSynApplication on PC-202007141608 with PID 2720 (D:\beijwenshidu\tah-collection\tah-wsd-syn\target\classes started by 密码是1 in D:\beijwenshidu\tah-collection)
+[INFO ] 2021-04-14 11:38:47.568 [main] com.qzsoft.tah.WsdSynApplication - The following profiles are active: dev
+[INFO ] 2021-04-14 11:38:48.320 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-04-14 11:38:48.423 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 91ms. Found 8 JPA repository interfaces.
+[INFO ] 2021-04-14 11:38:48.763 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2021-04-14 11:38:49.025 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 50008 (http)
+[INFO ] 2021-04-14 11:38:49.033 [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-50008"]
+[INFO ] 2021-04-14 11:38:49.033 [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2021-04-14 11:38:49.034 [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 2021-04-14 11:38:49.176 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2021-04-14 11:38:49.176 [main] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1500 ms
+[INFO ] 2021-04-14 11:38:49.435 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2021-04-14 11:38:49.575 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-04-14 11:38:49.645 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.4.9.Final}
+[INFO ] 2021-04-14 11:38:49.780 [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2021-04-14 11:38:49.902 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO ] 2021-04-14 11:38:50.690 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-04-14 11:38:50.699 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-04-14 11:38:51.104 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-04-14 11:38:51.109 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[INFO ] 2021-04-14 11:38:51.111 [main] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2021-04-14 11:38:51.122 [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2021-04-14 11:43:54.851 [main] com.qzsoft.tah.WsdSynApplication - Starting WsdSynApplication on PC-202007141608 with PID 14584 (D:\beijwenshidu\tah-collection\tah-wsd-syn\target\classes started by 密码是1 in D:\beijwenshidu\tah-collection)
+[INFO ] 2021-04-14 11:43:54.855 [main] com.qzsoft.tah.WsdSynApplication - The following profiles are active: dev
+[INFO ] 2021-04-14 11:43:55.588 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-04-14 11:43:55.689 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 91ms. Found 8 JPA repository interfaces.
+[INFO ] 2021-04-14 11:43:56.013 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2021-04-14 11:43:56.271 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 50008 (http)
+[INFO ] 2021-04-14 11:43:56.281 [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-50008"]
+[INFO ] 2021-04-14 11:43:56.281 [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2021-04-14 11:43:56.281 [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 2021-04-14 11:43:56.422 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2021-04-14 11:43:56.422 [main] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1497 ms
+[INFO ] 2021-04-14 11:43:56.686 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2021-04-14 11:43:56.825 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-04-14 11:43:56.895 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.4.9.Final}
+[INFO ] 2021-04-14 11:43:57.027 [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2021-04-14 11:43:57.148 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO ] 2021-04-14 11:43:57.980 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-04-14 11:43:57.989 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-04-14 11:43:58.412 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-04-14 11:43:58.418 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[INFO ] 2021-04-14 11:43:58.419 [main] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2021-04-14 11:43:58.429 [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2021-04-14 11:44:58.044 [main] com.qzsoft.tah.WsdSynApplication - Starting WsdSynApplication on PC-202007141608 with PID 30372 (D:\beijwenshidu\tah-collection\tah-wsd-syn\target\classes started by 密码是1 in D:\beijwenshidu\tah-collection)
+[INFO ] 2021-04-14 11:44:58.048 [main] com.qzsoft.tah.WsdSynApplication - The following profiles are active: dev
+[INFO ] 2021-04-14 11:44:58.856 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-04-14 11:44:58.984 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 115ms. Found 8 JPA repository interfaces.
+[INFO ] 2021-04-14 11:44:59.325 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2021-04-14 11:44:59.593 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 50008 (http)
+[INFO ] 2021-04-14 11:44:59.601 [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-50008"]
+[INFO ] 2021-04-14 11:44:59.602 [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2021-04-14 11:44:59.603 [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 2021-04-14 11:44:59.742 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2021-04-14 11:44:59.743 [main] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1636 ms
+[INFO ] 2021-04-14 11:45:00.010 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2021-04-14 11:45:00.171 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-04-14 11:45:00.239 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.4.9.Final}
+[INFO ] 2021-04-14 11:45:00.371 [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2021-04-14 11:45:00.496 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO ] 2021-04-14 11:45:01.281 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-04-14 11:45:01.290 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-04-14 11:45:01.704 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-04-14 11:45:01.709 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[INFO ] 2021-04-14 11:45:01.711 [main] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2021-04-14 11:45:01.722 [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.

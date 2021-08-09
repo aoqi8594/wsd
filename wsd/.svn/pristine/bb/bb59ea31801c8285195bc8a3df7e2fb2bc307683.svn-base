@@ -1,0 +1,111 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  font-size: 0.16rem;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+p{
+  margin: 0;
+}
+#app {
+  height: 100%;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+div:focus {
+  outline: none;
+}
+
+/* Utils
+------------------------------ */
+.fr {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+.pr-5 {
+  padding-right: 5px;
+}
+
+.pl-5 {
+  padding-left: 5px;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
+/* 滚动条 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+/* 滑块部分 */
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background-color: #1A90FD;
+}
+
+/* 轨道部分 */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background: #ffffff;
+  border-radius: 3px;
+}
+
+.el-scrollbar__wrap {
+  overflow-x: hidden;
+}
+
+.el-scrollbar__bar.is-horizontal {
+  display: none;
+}
+#app {
+  /* Sidebar
+  ------------------------------ */
+  .sidebar-container{
+    transition: width 0.28s;
+    width: $sideBarWidth !important;
+    background-color: $menuBg;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1001;
+    overflow: hidden;
+  }
+  /* main
+  ------------------------------ */
+  .main-container {
+    min-height: 100%;
+    transition: margin-left .28s;
+    margin-left: $sideBarWidth;
+    position: relative;
+  }
+}

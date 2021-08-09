@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qzsoft.tah.mapper.WsdDevBMapper">
+    
+    <select id="selectDevByNoAndSt" parameterType="String" resultType="com.qzsoft.tah.model.WsdDevB">
+        select * from wsd_dev_b
+        <where>
+            <if test="st != null">
+                and st =#{st}
+            </if>
+            <if test="devNo != null">
+                and dev_no= #{devNo}
+            </if>
+        </where>
+    </select>
+
+</mapper>

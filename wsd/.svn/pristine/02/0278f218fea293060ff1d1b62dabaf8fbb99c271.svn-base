@@ -1,0 +1,574 @@
+[INFO ] 2021-04-14 16:11:38.903 [main] com.qzsoft.tah.WsdSynApplication - Starting WsdSynApplication on PC-202007141608 with PID 26756 (D:\beijwenshidu\tah-collection\tah-wsd-syn\target\classes started by 密码是1 in D:\beijwenshidu\tah-collection)
+[INFO ] 2021-04-14 16:11:38.906 [main] com.qzsoft.tah.WsdSynApplication - The following profiles are active: dev
+[INFO ] 2021-04-14 16:11:40.147 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-04-14 16:11:40.242 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 83ms. Found 9 JPA repository interfaces.
+[INFO ] 2021-04-14 16:11:40.290 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-04-14 16:11:40.322 [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2021-04-14 16:13:12.006 [main] com.qzsoft.tah.WsdSynApplication - Starting WsdSynApplication on PC-202007141608 with PID 7116 (D:\beijwenshidu\tah-collection\tah-wsd-syn\target\classes started by 密码是1 in D:\beijwenshidu\tah-collection)
+[INFO ] 2021-04-14 16:13:12.009 [main] com.qzsoft.tah.WsdSynApplication - The following profiles are active: dev
+[INFO ] 2021-04-14 16:13:12.581 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-04-14 16:13:12.672 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 81ms. Found 9 JPA repository interfaces.
+[INFO ] 2021-04-14 16:13:12.673 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-04-14 16:13:12.698 [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2021-04-14 16:14:22.267 [main] com.qzsoft.tah.WsdSynApplication - Starting WsdSynApplication on PC-202007141608 with PID 26492 (D:\beijwenshidu\tah-collection\tah-wsd-syn\target\classes started by 密码是1 in D:\beijwenshidu\tah-collection)
+[INFO ] 2021-04-14 16:14:22.270 [main] com.qzsoft.tah.WsdSynApplication - The following profiles are active: dev
+[INFO ] 2021-04-14 16:14:22.916 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-04-14 16:14:23.003 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 78ms. Found 9 JPA repository interfaces.
+[INFO ] 2021-04-14 16:14:23.004 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-04-14 16:14:23.034 [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2021-04-14 16:25:25.220 [main] com.qzsoft.tah.WsdSynApplication - Starting WsdSynApplication on PC-202007141608 with PID 16040 (D:\beijwenshidu\tah-collection\tah-wsd-syn\target\classes started by 密码是1 in D:\beijwenshidu\tah-collection)
+[INFO ] 2021-04-14 16:25:25.223 [main] com.qzsoft.tah.WsdSynApplication - The following profiles are active: dev
+[INFO ] 2021-04-14 16:25:25.793 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-04-14 16:25:25.881 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 78ms. Found 9 JPA repository interfaces.
+[INFO ] 2021-04-14 16:25:25.881 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-04-14 16:25:25.907 [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2021-04-14 16:30:15.836 [main] com.qzsoft.tah.WsdSynApplication - Starting WsdSynApplication on PC-202007141608 with PID 22676 (D:\beijwenshidu\tah-collection\tah-wsd-syn\target\classes started by 密码是1 in D:\beijwenshidu\tah-collection)
+[INFO ] 2021-04-14 16:30:15.839 [main] com.qzsoft.tah.WsdSynApplication - The following profiles are active: dev
+[INFO ] 2021-04-14 16:30:16.512 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-04-14 16:30:16.627 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 102ms. Found 9 JPA repository interfaces.
+[INFO ] 2021-04-14 16:30:16.627 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-04-14 16:30:16.653 [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2021-04-14 16:31:57.379 [main] com.qzsoft.tah.WsdSynApplication - Starting WsdSynApplication on PC-202007141608 with PID 19928 (D:\beijwenshidu\tah-collection\tah-wsd-syn\target\classes started by 密码是1 in D:\beijwenshidu\tah-collection)
+[INFO ] 2021-04-14 16:31:57.382 [main] com.qzsoft.tah.WsdSynApplication - The following profiles are active: dev
+[INFO ] 2021-04-14 16:31:58.040 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-04-14 16:31:58.135 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 83ms. Found 9 JPA repository interfaces.
+[INFO ] 2021-04-14 16:31:58.136 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-04-14 16:31:58.160 [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2021-04-14 16:34:36.200 [main] com.qzsoft.tah.WsdSynApplication - Starting WsdSynApplication on PC-202007141608 with PID 29328 (D:\beijwenshidu\tah-collection\tah-wsd-syn\target\classes started by 密码是1 in D:\beijwenshidu\tah-collection)
+[INFO ] 2021-04-14 16:34:36.204 [main] com.qzsoft.tah.WsdSynApplication - The following profiles are active: dev
+[INFO ] 2021-04-14 16:34:36.749 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-04-14 16:34:36.841 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 81ms. Found 9 JPA repository interfaces.
+[INFO ] 2021-04-14 16:34:36.841 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-04-14 16:34:36.866 [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2021-04-14 16:35:06.788 [main] com.qzsoft.tah.WsdSynApplication - Starting WsdSynApplication on PC-202007141608 with PID 7276 (D:\beijwenshidu\tah-collection\tah-wsd-syn\target\classes started by 密码是1 in D:\beijwenshidu\tah-collection)
+[INFO ] 2021-04-14 16:35:06.791 [main] com.qzsoft.tah.WsdSynApplication - The following profiles are active: dev
+[INFO ] 2021-04-14 16:35:07.378 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-04-14 16:35:07.470 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 81ms. Found 9 JPA repository interfaces.
+[INFO ] 2021-04-14 16:35:07.471 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-04-14 16:35:07.497 [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2021-04-14 16:41:40.809 [main] com.qzsoft.tah.WsdSynApplication - Starting WsdSynApplication on PC-202007141608 with PID 17116 (D:\beijwenshidu\tah-collection\tah-wsd-syn\target\classes started by 密码是1 in D:\beijwenshidu\tah-collection)
+[INFO ] 2021-04-14 16:41:40.812 [main] com.qzsoft.tah.WsdSynApplication - The following profiles are active: dev
+[INFO ] 2021-04-14 16:41:41.405 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-04-14 16:41:41.499 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 83ms. Found 9 JPA repository interfaces.
+[INFO ] 2021-04-14 16:41:41.499 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-04-14 16:41:41.531 [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2021-04-14 16:43:09.672 [main] com.qzsoft.tah.WsdSynApplication - Starting WsdSynApplication on PC-202007141608 with PID 5140 (D:\beijwenshidu\tah-collection\tah-wsd-syn\target\classes started by 密码是1 in D:\beijwenshidu\tah-collection)
+[INFO ] 2021-04-14 16:43:09.674 [main] com.qzsoft.tah.WsdSynApplication - The following profiles are active: dev
+[INFO ] 2021-04-14 16:43:10.219 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-04-14 16:43:10.301 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 71ms. Found 8 JPA repository interfaces.
+[INFO ] 2021-04-14 16:43:10.301 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-04-14 16:43:10.307 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 1 JPA repository interfaces.
+[INFO ] 2021-04-14 16:43:10.792 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2021-04-14 16:43:11.047 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 50008 (http)
+[INFO ] 2021-04-14 16:43:11.056 [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-50008"]
+[INFO ] 2021-04-14 16:43:11.057 [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2021-04-14 16:43:11.057 [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 2021-04-14 16:43:11.197 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2021-04-14 16:43:11.197 [main] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1470 ms
+[INFO ] 2021-04-14 16:43:11.393 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-04-14 16:43:11.504 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.4.9.Final}
+[INFO ] 2021-04-14 16:43:11.640 [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2021-04-14 16:43:11.882 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2021-04-14 16:43:12.001 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO ] 2021-04-14 16:43:12.809 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-04-14 16:43:12.819 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-04-14 16:43:12.848 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-04-14 16:43:12.866 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+[INFO ] 2021-04-14 16:43:12.877 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO ] 2021-04-14 16:43:12.950 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-04-14 16:43:12.950 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-04-14 16:43:13.390 [main] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+[INFO ] 2021-04-14 16:43:13.402 [main] org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[INFO ] 2021-04-14 16:43:13.403 [main] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+[INFO ] 2021-04-14 16:43:13.404 [main] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+[INFO ] 2021-04-14 16:43:13.405 [main] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerTwo' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[INFO ] 2021-04-14 16:43:13.405 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'schedulerTwo' initialized from an externally provided properties instance.
+[INFO ] 2021-04-14 16:43:13.405 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+[INFO ] 2021-04-14 16:43:13.407 [main] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@74d53d63
+[INFO ] 2021-04-14 16:43:13.455 [main] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+[INFO ] 2021-04-14 16:43:13.456 [main] org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[INFO ] 2021-04-14 16:43:13.456 [main] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+[INFO ] 2021-04-14 16:43:13.456 [main] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+[INFO ] 2021-04-14 16:43:13.456 [main] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerTemp' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[INFO ] 2021-04-14 16:43:13.456 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'schedulerTemp' initialized from an externally provided properties instance.
+[INFO ] 2021-04-14 16:43:13.456 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+[INFO ] 2021-04-14 16:43:13.457 [main] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@5213b887
+[INFO ] 2021-04-14 16:43:13.650 [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2021-04-14 16:43:13.880 [main] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2021-04-14 16:43:13.919 [main] org.springframework.scheduling.quartz.SchedulerFactoryBean - Will start Quartz Scheduler [schedulerTwo] in 1 seconds
+[INFO ] 2021-04-14 16:43:13.920 [main] org.springframework.scheduling.quartz.SchedulerFactoryBean - Will start Quartz Scheduler [schedulerTemp] in 1 seconds
+[INFO ] 2021-04-14 16:43:13.929 [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-50008"]
+[INFO ] 2021-04-14 16:43:13.987 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 50008 (http) with context path ''
+[INFO ] 2021-04-14 16:43:13.989 [main] com.qzsoft.tah.WsdSynApplication - Started WsdSynApplication in 4.829 seconds (JVM running for 6.165)
+[INFO ] 2021-04-14 16:43:14.075 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:43:14.081 [scheduling-1] com.qzsoft.tah.quartz.ScheduleTempRefreshDatabase - 
+
+【数据库 实验室 cron表达式】 0 0/2 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:43:14.920 [Quartz Scheduler [schedulerTwo]] org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now, after delay of 1 seconds
+[INFO ] 2021-04-14 16:43:14.920 [Quartz Scheduler [schedulerTemp]] org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now, after delay of 1 seconds
+[INFO ] 2021-04-14 16:43:14.920 [Quartz Scheduler [schedulerTemp]] org.quartz.core.QuartzScheduler - Scheduler schedulerTemp_$_NON_CLUSTERED started.
+[INFO ] 2021-04-14 16:43:14.920 [Quartz Scheduler [schedulerTwo]] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED started.
+[INFO ] 2021-04-14 16:43:43.933 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:43:43.936 [scheduling-1] com.qzsoft.tah.quartz.ScheduleTempRefreshDatabase - 
+
+【数据库 实验室 cron表达式】 0 0/2 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:44:00.034 [schedulerTwo_Worker-1] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-04-14 08:44:14 
+
+
+[INFO ] 2021-04-14 16:44:00.034 [schedulerTemp_Worker-1] com.qzsoft.tah.task.ScheduledTempJob - 
+
+【本地实验室数据拉取】 执行时间: 2021-04-14 08:44:14 
+
+
+[INFO ] 2021-04-14 16:44:13.930 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:44:13.932 [scheduling-1] com.qzsoft.tah.quartz.ScheduleTempRefreshDatabase - 
+
+【数据库 实验室 cron表达式】 0 0/2 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:44:43.931 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:44:43.933 [scheduling-1] com.qzsoft.tah.quartz.ScheduleTempRefreshDatabase - 
+
+【数据库 实验室 cron表达式】 0 0/2 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:45:00.001 [schedulerTwo_Worker-2] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-04-14 08:45:14 
+
+
+[INFO ] 2021-04-14 16:45:13.930 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:45:13.932 [scheduling-1] com.qzsoft.tah.quartz.ScheduleTempRefreshDatabase - 
+
+【数据库 实验室 cron表达式】 0 0/2 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:45:43.931 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:45:43.933 [scheduling-1] com.qzsoft.tah.quartz.ScheduleTempRefreshDatabase - 
+
+【数据库 实验室 cron表达式】 0 0/2 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:46:00.001 [schedulerTemp_Worker-2] com.qzsoft.tah.task.ScheduledTempJob - 
+
+【本地实验室数据拉取】 执行时间: 2021-04-14 08:46:14 
+
+
+[INFO ] 2021-04-14 16:46:00.001 [schedulerTwo_Worker-3] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-04-14 08:46:14 
+
+
+[INFO ] 2021-04-14 16:46:13.930 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:46:13.933 [scheduling-1] com.qzsoft.tah.quartz.ScheduleTempRefreshDatabase - 
+
+【数据库 实验室 cron表达式】 0 0/2 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:46:43.933 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:46:43.940 [scheduling-1] com.qzsoft.tah.quartz.ScheduleTempRefreshDatabase - 
+
+【数据库 实验室 cron表达式】 0 0/2 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:47:00.001 [schedulerTwo_Worker-4] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-04-14 08:47:14 
+
+
+[INFO ] 2021-04-14 16:47:13.932 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:47:13.937 [scheduling-1] com.qzsoft.tah.quartz.ScheduleTempRefreshDatabase - 
+
+【数据库 实验室 cron表达式】 0 0/2 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:47:43.930 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:47:43.933 [scheduling-1] com.qzsoft.tah.quartz.ScheduleTempRefreshDatabase - 
+
+【数据库 实验室 cron表达式】 0 0/2 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:48:00.000 [schedulerTwo_Worker-5] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-04-14 08:48:14 
+
+
+[INFO ] 2021-04-14 16:48:00.000 [schedulerTemp_Worker-3] com.qzsoft.tah.task.ScheduledTempJob - 
+
+【本地实验室数据拉取】 执行时间: 2021-04-14 08:48:14 
+
+
+[INFO ] 2021-04-14 16:48:19.197 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:48:19.199 [scheduling-1] com.qzsoft.tah.quartz.ScheduleTempRefreshDatabase - 
+
+【数据库 实验室 cron表达式】 0 0/2 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:48:43.930 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:48:43.932 [scheduling-1] com.qzsoft.tah.quartz.ScheduleTempRefreshDatabase - 
+
+【数据库 实验室 cron表达式】 0 0/2 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:49:00.002 [schedulerTwo_Worker-6] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-04-14 08:49:14 
+
+
+[INFO ] 2021-04-14 16:49:13.930 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:49:13.932 [scheduling-1] com.qzsoft.tah.quartz.ScheduleTempRefreshDatabase - 
+
+【数据库 实验室 cron表达式】 0 0/2 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:49:43.931 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:49:43.933 [scheduling-1] com.qzsoft.tah.quartz.ScheduleTempRefreshDatabase - 
+
+【数据库 实验室 cron表达式】 0 0/2 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:50:00.001 [schedulerTwo_Worker-7] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-04-14 08:50:14 
+
+
+[INFO ] 2021-04-14 16:50:00.001 [schedulerTemp_Worker-4] com.qzsoft.tah.task.ScheduledTempJob - 
+
+【本地实验室数据拉取】 执行时间: 2021-04-14 08:50:14 
+
+
+[INFO ] 2021-04-14 16:50:13.931 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:50:13.934 [scheduling-1] com.qzsoft.tah.quartz.ScheduleTempRefreshDatabase - 
+
+【数据库 实验室 cron表达式】 0 0/2 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:50:43.934 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:50:43.939 [scheduling-1] com.qzsoft.tah.quartz.ScheduleTempRefreshDatabase - 
+
+【数据库 实验室 cron表达式】 0 0/2 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:51:00.000 [schedulerTwo_Worker-8] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-04-14 08:51:14 
+
+
+[INFO ] 2021-04-14 16:51:13.929 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:51:13.932 [scheduling-1] com.qzsoft.tah.quartz.ScheduleTempRefreshDatabase - 
+
+【数据库 实验室 cron表达式】 0 0/2 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:51:43.931 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:51:43.934 [scheduling-1] com.qzsoft.tah.quartz.ScheduleTempRefreshDatabase - 
+
+【数据库 实验室 cron表达式】 0 0/2 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:52:00.000 [schedulerTemp_Worker-5] com.qzsoft.tah.task.ScheduledTempJob - 
+
+【本地实验室数据拉取】 执行时间: 2021-04-14 08:52:14 
+
+
+[INFO ] 2021-04-14 16:52:00.000 [schedulerTwo_Worker-9] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-04-14 08:52:14 
+
+
+[INFO ] 2021-04-14 16:52:13.930 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:52:13.932 [scheduling-1] com.qzsoft.tah.quartz.ScheduleTempRefreshDatabase - 
+
+【数据库 实验室 cron表达式】 0 0/2 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:52:43.929 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:52:43.931 [scheduling-1] com.qzsoft.tah.quartz.ScheduleTempRefreshDatabase - 
+
+【数据库 实验室 cron表达式】 0 0/2 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:53:00.008 [schedulerTwo_Worker-10] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-04-14 08:53:14 
+
+
+[INFO ] 2021-04-14 16:53:13.930 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:53:13.932 [scheduling-1] com.qzsoft.tah.quartz.ScheduleTempRefreshDatabase - 
+
+【数据库 实验室 cron表达式】 0 0/2 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:53:43.932 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:53:43.935 [scheduling-1] com.qzsoft.tah.quartz.ScheduleTempRefreshDatabase - 
+
+【数据库 实验室 cron表达式】 0 0/2 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:54:00.001 [schedulerTwo_Worker-1] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-04-14 08:54:14 
+
+
+[INFO ] 2021-04-14 16:54:00.001 [schedulerTemp_Worker-6] com.qzsoft.tah.task.ScheduledTempJob - 
+
+【本地实验室数据拉取】 执行时间: 2021-04-14 08:54:14 
+
+
+[INFO ] 2021-04-14 16:55:07.878 [schedulerTwo_Worker-2] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-04-14 08:55:14 
+
+
+[INFO ] 2021-04-14 16:55:07.883 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:55:07.885 [scheduling-1] com.qzsoft.tah.quartz.ScheduleTempRefreshDatabase - 
+
+【数据库 实验室 cron表达式】 0 0/2 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:55:07.887 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:55:07.889 [scheduling-1] com.qzsoft.tah.quartz.ScheduleTempRefreshDatabase - 
+
+【数据库 实验室 cron表达式】 0 0/2 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:55:13.930 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:55:13.932 [scheduling-1] com.qzsoft.tah.quartz.ScheduleTempRefreshDatabase - 
+
+【数据库 实验室 cron表达式】 0 0/2 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:55:43.934 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:55:43.937 [scheduling-1] com.qzsoft.tah.quartz.ScheduleTempRefreshDatabase - 
+
+【数据库 实验室 cron表达式】 0 0/2 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:56:00.001 [schedulerTemp_Worker-7] com.qzsoft.tah.task.ScheduledTempJob - 
+
+【本地实验室数据拉取】 执行时间: 2021-04-14 08:56:14 
+
+
+[INFO ] 2021-04-14 16:56:00.005 [schedulerTwo_Worker-3] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-04-14 08:56:14 
+
+
+[INFO ] 2021-04-14 16:58:22.297 [schedulerTwo_Worker-4] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-04-14 08:58:14 
+
+
+[INFO ] 2021-04-14 16:58:22.299 [schedulerTemp_Worker-8] com.qzsoft.tah.task.ScheduledTempJob - 
+
+【本地实验室数据拉取】 执行时间: 2021-04-14 08:58:14 
+
+
+[INFO ] 2021-04-14 16:58:22.305 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:58:22.307 [scheduling-1] com.qzsoft.tah.quartz.ScheduleTempRefreshDatabase - 
+
+【数据库 实验室 cron表达式】 0 0/2 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:58:22.309 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:58:22.311 [scheduling-1] com.qzsoft.tah.quartz.ScheduleTempRefreshDatabase - 
+
+【数据库 实验室 cron表达式】 0 0/2 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:58:22.313 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:58:22.315 [scheduling-1] com.qzsoft.tah.quartz.ScheduleTempRefreshDatabase - 
+
+【数据库 实验室 cron表达式】 0 0/2 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:58:22.317 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:58:22.319 [scheduling-1] com.qzsoft.tah.quartz.ScheduleTempRefreshDatabase - 
+
+【数据库 实验室 cron表达式】 0 0/2 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:58:22.321 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:58:22.323 [scheduling-1] com.qzsoft.tah.quartz.ScheduleTempRefreshDatabase - 
+
+【数据库 实验室 cron表达式】 0 0/2 * * * ? * 
+
+
+[INFO ] 2021-04-14 16:58:22.687 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED paused.
+[INFO ] 2021-04-14 16:58:22.687 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTemp_$_NON_CLUSTERED paused.
+[INFO ] 2021-04-14 16:58:22.687 [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2021-04-14 16:58:22.689 [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2021-04-14 16:58:22.689 [SpringContextShutdownHook] org.springframework.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+[INFO ] 2021-04-14 16:58:22.689 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTemp_$_NON_CLUSTERED shutting down.
+[INFO ] 2021-04-14 16:58:22.689 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTemp_$_NON_CLUSTERED paused.
+[INFO ] 2021-04-14 16:58:22.690 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTemp_$_NON_CLUSTERED shutdown complete.
+[INFO ] 2021-04-14 16:58:22.690 [SpringContextShutdownHook] org.springframework.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+[INFO ] 2021-04-14 16:58:22.690 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED shutting down.
+[INFO ] 2021-04-14 16:58:22.690 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED paused.
+[INFO ] 2021-04-14 16:58:22.690 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED shutdown complete.
+[INFO ] 2021-04-14 16:58:22.692 [SpringContextShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-04-14 16:58:22.696 [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+[INFO ] 2021-04-14 16:58:22.696 [SpringContextShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-04-14 16:58:22.697 [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

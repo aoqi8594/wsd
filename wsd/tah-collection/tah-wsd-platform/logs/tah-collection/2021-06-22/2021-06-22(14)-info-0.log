@@ -1,0 +1,132 @@
+[INFO ] 2021-06-22 14:26:07.047 [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.qzsoft.tah.TestJunit], using SpringBootContextLoader
+[INFO ] 2021-06-22 14:26:07.074 [main] org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.qzsoft.tah.TestJunit]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 2021-06-22 14:26:07.864 [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[INFO ] 2021-06-22 14:26:07.940 [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2e8e8225, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6ebf0f36, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@18920cc, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2807bdeb, org.springframework.test.context.support.DirtiesContextTestExecutionListener@72c28d64, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6492fab5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2c5529ab, org.springframework.test.context.event.EventPublishingTestExecutionListener@39a8312f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5f6722d3, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2c532cd8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@294e5088, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@51972dc7, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3700ec9c]
+[INFO ] 2021-06-22 14:26:09.623 [main] com.qzsoft.tah.TestJunit - Starting TestJunit on DESKTOP-2S2GF81 with PID 16220 (started by aq in D:\wsd\tah-collection\tah-wsd-platform)
+[INFO ] 2021-06-22 14:26:09.624 [main] com.qzsoft.tah.TestJunit - The following profiles are active: dev
+[INFO ] 2021-06-22 14:26:13.667 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-06-22 14:26:14.571 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 870ms. Found 5 JPA repository interfaces.
+[INFO ] 2021-06-22 14:26:17.813 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2021-06-22 14:26:21.670 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+[INFO ] 2021-06-22 14:26:21.721 [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+[INFO ] 2021-06-22 14:26:21.722 [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2021-06-22 14:26:21.723 [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 2021-06-22 14:26:22.328 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2021-06-22 14:26:22.329 [main] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 12635 ms
+[INFO ] 2021-06-22 14:26:25.749 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2021-06-22 14:26:26.466 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-06-22 14:26:26.783 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.4.9.Final}
+[INFO ] 2021-06-22 14:26:27.362 [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2021-06-22 14:26:27.882 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-06-22 14:26:31.926 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-06-22 14:26:31.960 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-06-22 14:26:37.908 [main] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+[INFO ] 2021-06-22 14:26:37.969 [main] org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[INFO ] 2021-06-22 14:26:37.971 [main] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+[INFO ] 2021-06-22 14:26:37.974 [main] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+[INFO ] 2021-06-22 14:26:37.977 [main] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[INFO ] 2021-06-22 14:26:37.977 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+[INFO ] 2021-06-22 14:26:37.977 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+[INFO ] 2021-06-22 14:26:37.979 [main] org.quartz.core.QuartzScheduler - JobFactory set to: com.qzsoft.tah.task.config.JobFactory@165a5979
+[INFO ] 2021-06-22 14:26:42.136 [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2021-06-22 14:26:47.166 [main] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2021-06-22 14:26:47.690 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2021-06-22 14:26:47.690 [main] org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2021-06-22 14:26:47.826 [main] org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 135 ms
+[INFO ] 2021-06-22 14:26:52.767 [main] org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+[INFO ] 2021-06-22 14:26:52.768 [main] org.quartz.core.QuartzScheduler - Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+[INFO ] 2021-06-22 14:26:52.854 [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+[INFO ] 2021-06-22 14:26:52.937 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 52201 (http) with context path ''
+[INFO ] 2021-06-22 14:26:52.944 [main] com.qzsoft.tah.TestJunit - Started TestJunit in 44.817 seconds (JVM running for 47.941)
+[INFO ] 2021-06-22 14:28:23.726 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+[INFO ] 2021-06-22 14:28:23.727 [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2021-06-22 14:28:23.728 [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2021-06-22 14:28:23.729 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+[INFO ] 2021-06-22 14:28:23.729 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+[INFO ] 2021-06-22 14:28:23.730 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+[INFO ] 2021-06-22 14:28:23.730 [SpringContextShutdownHook] org.springframework.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+[INFO ] 2021-06-22 14:28:23.732 [SpringContextShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-06-22 14:28:23.749 [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[INFO ] 2021-06-22 14:28:46.627 [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.qzsoft.tah.TestJunit], using SpringBootContextLoader
+[INFO ] 2021-06-22 14:28:46.653 [main] org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.qzsoft.tah.TestJunit]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 2021-06-22 14:28:47.434 [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[INFO ] 2021-06-22 14:28:47.506 [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2e8e8225, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6ebf0f36, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@18920cc, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2807bdeb, org.springframework.test.context.support.DirtiesContextTestExecutionListener@72c28d64, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6492fab5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2c5529ab, org.springframework.test.context.event.EventPublishingTestExecutionListener@39a8312f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5f6722d3, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2c532cd8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@294e5088, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@51972dc7, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3700ec9c]
+[INFO ] 2021-06-22 14:28:49.141 [main] com.qzsoft.tah.TestJunit - Starting TestJunit on DESKTOP-2S2GF81 with PID 21096 (started by aq in D:\wsd\tah-collection\tah-wsd-platform)
+[INFO ] 2021-06-22 14:28:49.142 [main] com.qzsoft.tah.TestJunit - The following profiles are active: dev
+[INFO ] 2021-06-22 14:28:53.209 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-06-22 14:28:54.102 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 859ms. Found 5 JPA repository interfaces.
+[INFO ] 2021-06-22 14:28:57.388 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2021-06-22 14:29:01.376 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+[INFO ] 2021-06-22 14:29:01.426 [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+[INFO ] 2021-06-22 14:29:01.428 [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2021-06-22 14:29:01.428 [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 2021-06-22 14:29:02.035 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2021-06-22 14:29:02.035 [main] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 12825 ms
+[INFO ] 2021-06-22 14:29:05.496 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2021-06-22 14:29:06.198 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-06-22 14:29:06.512 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.4.9.Final}
+[INFO ] 2021-06-22 14:29:07.075 [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2021-06-22 14:29:07.752 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-06-22 14:29:17.969 [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.qzsoft.tah.TestJunit], using SpringBootContextLoader
+[INFO ] 2021-06-22 14:29:17.996 [main] org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.qzsoft.tah.TestJunit]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 2021-06-22 14:29:18.780 [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[INFO ] 2021-06-22 14:29:18.854 [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2e8e8225, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6ebf0f36, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@18920cc, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2807bdeb, org.springframework.test.context.support.DirtiesContextTestExecutionListener@72c28d64, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6492fab5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2c5529ab, org.springframework.test.context.event.EventPublishingTestExecutionListener@39a8312f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5f6722d3, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2c532cd8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@294e5088, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@51972dc7, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3700ec9c]
+[INFO ] 2021-06-22 14:29:20.499 [main] com.qzsoft.tah.TestJunit - Starting TestJunit on DESKTOP-2S2GF81 with PID 24248 (started by aq in D:\wsd\tah-collection\tah-wsd-platform)
+[INFO ] 2021-06-22 14:29:20.500 [main] com.qzsoft.tah.TestJunit - The following profiles are active: dev
+[INFO ] 2021-06-22 14:29:24.425 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-06-22 14:29:25.269 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 812ms. Found 5 JPA repository interfaces.
+[INFO ] 2021-06-22 14:29:28.449 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2021-06-22 14:29:32.252 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+[INFO ] 2021-06-22 14:29:32.302 [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+[INFO ] 2021-06-22 14:29:32.303 [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2021-06-22 14:29:32.304 [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 2021-06-22 14:29:32.902 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2021-06-22 14:29:32.903 [main] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 12333 ms
+[INFO ] 2021-06-22 14:29:36.289 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2021-06-22 14:29:36.984 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-06-22 14:29:37.288 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.4.9.Final}
+[INFO ] 2021-06-22 14:29:37.853 [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2021-06-22 14:29:38.357 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-06-22 14:29:42.295 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-06-22 14:29:42.328 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-06-22 14:29:48.108 [main] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+[INFO ] 2021-06-22 14:29:48.163 [main] org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[INFO ] 2021-06-22 14:29:48.165 [main] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+[INFO ] 2021-06-22 14:29:48.167 [main] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+[INFO ] 2021-06-22 14:29:48.170 [main] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[INFO ] 2021-06-22 14:29:48.170 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+[INFO ] 2021-06-22 14:29:48.171 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+[INFO ] 2021-06-22 14:29:48.173 [main] org.quartz.core.QuartzScheduler - JobFactory set to: com.qzsoft.tah.task.config.JobFactory@3f267e1b
+[INFO ] 2021-06-22 14:29:52.359 [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2021-06-22 14:29:57.397 [main] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2021-06-22 14:29:57.911 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2021-06-22 14:29:57.911 [main] org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2021-06-22 14:29:58.049 [main] org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 138 ms
+[INFO ] 2021-06-22 14:30:02.962 [main] org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+[INFO ] 2021-06-22 14:30:02.963 [main] org.quartz.core.QuartzScheduler - Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+[INFO ] 2021-06-22 14:30:03.047 [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+[INFO ] 2021-06-22 14:30:03.129 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 52511 (http) with context path ''
+[INFO ] 2021-06-22 14:30:03.135 [main] com.qzsoft.tah.TestJunit - Started TestJunit in 44.1 seconds (JVM running for 46.969)
+[INFO ] 2021-06-22 14:30:30.990 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+[INFO ] 2021-06-22 14:30:30.992 [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2021-06-22 14:30:30.993 [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2021-06-22 14:30:30.994 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+[INFO ] 2021-06-22 14:30:30.994 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+[INFO ] 2021-06-22 14:30:30.995 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+[INFO ] 2021-06-22 14:30:30.995 [SpringContextShutdownHook] org.springframework.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+[INFO ] 2021-06-22 14:30:30.996 [SpringContextShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-06-22 14:30:31.026 [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

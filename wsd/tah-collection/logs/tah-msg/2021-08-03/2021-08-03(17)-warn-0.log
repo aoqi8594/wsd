@@ -1,0 +1,2 @@
+[WARN ] 2021-08-03 17:20:47.096 [main] org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.qzsoft.tah]' package. Please check your configuration.
+[WARN ] 2021-08-03 17:20:50.507 [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning

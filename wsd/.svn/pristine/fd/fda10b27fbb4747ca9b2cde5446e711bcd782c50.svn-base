@@ -1,0 +1,49 @@
+server:
+  port: 1938
+  application:
+    name: tah-collection
+
+spring:
+  aop:
+    proxy-target-class: true #此项配置很重要，强行使用CGLib的代理方式
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.2.229:3309/humiture?useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2b8
+    username: root
+    password: Mysql@002
+    filters: mergeStat
+    initialSize: 1
+    maxActive: 20
+    minIdle: 1
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: select 'x'
+    #    validationQuery: alter session set nls_date_format = 'yyyy-mm-dd hh24:mi:ss'
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    maxOpenPreparedStatements: 20
+    removeAbandoned: true
+    removeAbandonedTimeout: 1800
+    logAbandoned: true
+    poolPreparedStatements: false
+    maxPoolPreparedStatementPerConnectionSize: 20
+    sql-script-encoding: utf-8
+wsd:
+  server:
+    port: 3000
+
+mybatis-plus:
+#  mapper-locations: classpath*:com/qzsoft/tah/mapper/*Mapper.xml
+  configuration:
+    map-underscore-to-camel-case: true
+    auto-mapping-behavior: full
+  global-config:
+    db-config:
+      db-column-underline: true
+      refresh-mapper: true
+      capital-mode: true
+user:
+  dir: D:\wsd\

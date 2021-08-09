@@ -1,0 +1,88 @@
+[INFO ] 2021-04-14 15:29:28.627 [main] com.qzsoft.tah.WsdSynApplication - Starting WsdSynApplication on PC-202007141608 with PID 1632 (D:\beijwenshidu\tah-collection\tah-wsd-syn\target\classes started by 密码是1 in D:\beijwenshidu\tah-collection)
+[INFO ] 2021-04-14 15:29:28.632 [main] com.qzsoft.tah.WsdSynApplication - The following profiles are active: dev
+[INFO ] 2021-04-14 15:29:29.371 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-04-14 15:29:29.484 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 103ms. Found 9 JPA repository interfaces.
+[INFO ] 2021-04-14 15:29:29.832 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2021-04-14 15:29:30.113 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 50008 (http)
+[INFO ] 2021-04-14 15:29:30.124 [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-50008"]
+[INFO ] 2021-04-14 15:29:30.124 [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2021-04-14 15:29:30.125 [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 2021-04-14 15:29:30.269 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2021-04-14 15:29:30.269 [main] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1549 ms
+[INFO ] 2021-04-14 15:29:30.369 [main] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2021-04-14 15:29:30.380 [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2021-04-14 15:31:50.924 [main] com.qzsoft.tah.WsdSynApplication - Starting WsdSynApplication on PC-202007141608 with PID 31196 (D:\beijwenshidu\tah-collection\tah-wsd-syn\target\classes started by 密码是1 in D:\beijwenshidu\tah-collection)
+[INFO ] 2021-04-14 15:31:50.927 [main] com.qzsoft.tah.WsdSynApplication - The following profiles are active: dev
+[INFO ] 2021-04-14 15:31:51.735 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-04-14 15:31:51.845 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 100ms. Found 9 JPA repository interfaces.
+[INFO ] 2021-04-14 15:31:52.226 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2021-04-14 15:31:52.497 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 50008 (http)
+[INFO ] 2021-04-14 15:31:52.509 [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-50008"]
+[INFO ] 2021-04-14 15:31:52.510 [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2021-04-14 15:31:52.510 [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 2021-04-14 15:31:52.671 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2021-04-14 15:31:52.672 [main] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1676 ms
+[INFO ] 2021-04-14 15:31:52.829 [main] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2021-04-14 15:31:52.844 [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2021-04-14 15:39:51.784 [main] com.qzsoft.tah.WsdSynApplication - Starting WsdSynApplication on PC-202007141608 with PID 22300 (D:\beijwenshidu\tah-collection\tah-wsd-syn\target\classes started by 密码是1 in D:\beijwenshidu\tah-collection)
+[INFO ] 2021-04-14 15:39:51.794 [main] com.qzsoft.tah.WsdSynApplication - The following profiles are active: dev
+[INFO ] 2021-04-14 15:39:52.384 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-04-14 15:39:52.470 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 80ms. Found 9 JPA repository interfaces.
+[INFO ] 2021-04-14 15:39:52.806 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2021-04-14 15:39:53.024 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 50008 (http)
+[INFO ] 2021-04-14 15:39:53.032 [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-50008"]
+[INFO ] 2021-04-14 15:39:53.033 [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2021-04-14 15:39:53.033 [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 2021-04-14 15:39:53.166 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2021-04-14 15:39:53.166 [main] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1319 ms
+[INFO ] 2021-04-14 15:39:53.284 [main] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2021-04-14 15:39:53.301 [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2021-04-14 15:42:00.908 [main] com.qzsoft.tah.WsdSynApplication - Starting WsdSynApplication on PC-202007141608 with PID 10052 (D:\beijwenshidu\tah-collection\tah-wsd-syn\target\classes started by 密码是1 in D:\beijwenshidu\tah-collection)
+[INFO ] 2021-04-14 15:42:00.914 [main] com.qzsoft.tah.WsdSynApplication - The following profiles are active: dev
+[INFO ] 2021-04-14 15:42:01.821 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-04-14 15:42:01.974 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 139ms. Found 9 JPA repository interfaces.
+[INFO ] 2021-04-14 15:42:02.562 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 50008 (http)
+[INFO ] 2021-04-14 15:42:02.571 [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-50008"]
+[INFO ] 2021-04-14 15:42:02.572 [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2021-04-14 15:42:02.572 [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 2021-04-14 15:42:02.726 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2021-04-14 15:42:02.728 [main] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1649 ms
+[INFO ] 2021-04-14 15:42:02.831 [main] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2021-04-14 15:42:02.852 [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2021-04-14 15:48:51.769 [main] com.qzsoft.tah.WsdSynApplication - Starting WsdSynApplication on PC-202007141608 with PID 26052 (D:\beijwenshidu\tah-collection\tah-wsd-syn\target\classes started by 密码是1 in D:\beijwenshidu\tah-collection)
+[INFO ] 2021-04-14 15:48:51.772 [main] com.qzsoft.tah.WsdSynApplication - The following profiles are active: dev
+[INFO ] 2021-04-14 15:48:52.469 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-04-14 15:48:52.582 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 99ms. Found 9 JPA repository interfaces.
+[INFO ] 2021-04-14 15:48:53.136 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 50008 (http)
+[INFO ] 2021-04-14 15:48:53.145 [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-50008"]
+[INFO ] 2021-04-14 15:48:53.146 [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2021-04-14 15:48:53.146 [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 2021-04-14 15:48:53.298 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2021-04-14 15:48:53.298 [main] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1436 ms
+[INFO ] 2021-04-14 15:48:53.353 [main] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2021-04-14 15:48:53.373 [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2021-04-14 15:58:16.966 [main] com.qzsoft.tah.WsdSynApplication - Starting WsdSynApplication on PC-202007141608 with PID 8848 (D:\beijwenshidu\tah-collection\tah-wsd-syn\target\classes started by 密码是1 in D:\beijwenshidu\tah-collection)
+[INFO ] 2021-04-14 15:58:16.969 [main] com.qzsoft.tah.WsdSynApplication - The following profiles are active: dev
+[INFO ] 2021-04-14 15:58:17.672 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-04-14 15:58:17.780 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 100ms. Found 9 JPA repository interfaces.
+[INFO ] 2021-04-14 15:58:18.110 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2021-04-14 15:58:18.377 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 50008 (http)
+[INFO ] 2021-04-14 15:58:18.387 [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-50008"]
+[INFO ] 2021-04-14 15:58:18.388 [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2021-04-14 15:58:18.388 [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 2021-04-14 15:58:18.524 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2021-04-14 15:58:18.525 [main] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1506 ms
+[INFO ] 2021-04-14 15:58:18.584 [main] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2021-04-14 15:58:18.602 [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.

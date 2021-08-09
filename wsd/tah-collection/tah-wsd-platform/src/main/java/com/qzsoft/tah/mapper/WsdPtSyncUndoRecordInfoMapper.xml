@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qzsoft.tah.mapper.WsdPtSyncUndoRecordInfoMapper">
+
+    <insert id="saveAll" parameterType="java.util.List">
+       insert into wsd_pt_sync_undo_record_info
+           (id,record_id,create_time,shebeibianhao,temperature01,humidity)
+       values 
+       <foreach collection="list" item="item" index="index" open="(" separator="),(" close=")">
+           #{item.id},
+           #{item.recordId},
+           #{item.createTime},
+           #{item.shebeibianhao},
+           #{item.temperature01},
+           #{item.humidity}
+       </foreach>
+    </insert>
+</mapper>

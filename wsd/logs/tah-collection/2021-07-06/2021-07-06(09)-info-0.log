@@ -1,0 +1,790 @@
+[INFO ] 2021-07-06 09:35:48.875 [main] com.qzsoft.tah.WsdSynApplication - Starting WsdSynApplication on DESKTOP-2S2GF81 with PID 29352 (D:\wsd\tah-collection\tah-wsd-syn\target\classes started by aq in D:\wsd)
+[INFO ] 2021-07-06 09:35:48.880 [main] com.qzsoft.tah.WsdSynApplication - The following profiles are active: prod
+[INFO ] 2021-07-06 09:35:49.590 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-06 09:35:49.658 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54ms. Found 1 JPA repository interfaces.
+[INFO ] 2021-07-06 09:35:49.659 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-06 09:35:49.707 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47ms. Found 13 JPA repository interfaces.
+[INFO ] 2021-07-06 09:35:49.707 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-06 09:35:49.708 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 0ms. Found 0 JPA repository interfaces.
+[INFO ] 2021-07-06 09:35:50.416 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2021-07-06 09:35:50.722 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1939 (http)
+[INFO ] 2021-07-06 09:35:50.733 [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1939"]
+[INFO ] 2021-07-06 09:35:50.733 [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2021-07-06 09:35:50.734 [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 2021-07-06 09:35:50.888 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2021-07-06 09:35:50.888 [main] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1912 ms
+[INFO ] 2021-07-06 09:35:51.155 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-06 09:35:51.280 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.4.9.Final}
+[INFO ] 2021-07-06 09:36:14.043 [main] com.qzsoft.tah.WsdSynApplication - Starting WsdSynApplication on DESKTOP-2S2GF81 with PID 6524 (D:\wsd\tah-collection\tah-wsd-syn\target\classes started by aq in D:\wsd)
+[INFO ] 2021-07-06 09:36:14.047 [main] com.qzsoft.tah.WsdSynApplication - The following profiles are active: dev
+[INFO ] 2021-07-06 09:36:14.586 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-06 09:36:14.639 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44ms. Found 1 JPA repository interfaces.
+[INFO ] 2021-07-06 09:36:14.639 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-06 09:36:14.685 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45ms. Found 13 JPA repository interfaces.
+[INFO ] 2021-07-06 09:36:14.685 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-06 09:36:14.686 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 0ms. Found 0 JPA repository interfaces.
+[INFO ] 2021-07-06 09:36:15.183 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2021-07-06 09:36:15.437 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1939 (http)
+[INFO ] 2021-07-06 09:36:15.447 [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1939"]
+[INFO ] 2021-07-06 09:36:15.448 [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2021-07-06 09:36:15.448 [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 2021-07-06 09:36:15.595 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/tah-syn] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2021-07-06 09:36:15.595 [main] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1493 ms
+[INFO ] 2021-07-06 09:36:15.829 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-06 09:36:15.899 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.4.9.Final}
+[INFO ] 2021-07-06 09:36:16.053 [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2021-07-06 09:36:16.284 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2021-07-06 09:37:01.097 [main] com.qzsoft.tah.WsdSynApplication - Starting WsdSynApplication on DESKTOP-2S2GF81 with PID 27676 (D:\wsd\tah-collection\tah-wsd-syn\target\classes started by aq in D:\wsd)
+[INFO ] 2021-07-06 09:37:01.100 [main] com.qzsoft.tah.WsdSynApplication - The following profiles are active: dev
+[INFO ] 2021-07-06 09:37:01.658 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-06 09:37:01.709 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42ms. Found 1 JPA repository interfaces.
+[INFO ] 2021-07-06 09:37:01.709 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-06 09:37:01.756 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46ms. Found 13 JPA repository interfaces.
+[INFO ] 2021-07-06 09:37:01.756 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-06 09:37:01.757 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 0ms. Found 0 JPA repository interfaces.
+[INFO ] 2021-07-06 09:37:02.262 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2021-07-06 09:37:02.505 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1939 (http)
+[INFO ] 2021-07-06 09:37:02.514 [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1939"]
+[INFO ] 2021-07-06 09:37:02.515 [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2021-07-06 09:37:02.515 [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 2021-07-06 09:37:02.655 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/tah-syn] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2021-07-06 09:37:02.656 [main] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1492 ms
+[INFO ] 2021-07-06 09:37:02.875 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-06 09:37:02.942 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.4.9.Final}
+[INFO ] 2021-07-06 09:37:03.062 [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2021-07-06 09:37:03.245 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2021-07-06 09:38:31.934 [main] com.qzsoft.tah.WsdSynApplication - Starting WsdSynApplication on DESKTOP-2S2GF81 with PID 20768 (D:\wsd\tah-collection\tah-wsd-syn\target\classes started by aq in D:\wsd)
+[INFO ] 2021-07-06 09:38:31.937 [main] com.qzsoft.tah.WsdSynApplication - The following profiles are active: dev
+[INFO ] 2021-07-06 09:38:32.475 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-06 09:38:32.527 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42ms. Found 1 JPA repository interfaces.
+[INFO ] 2021-07-06 09:38:32.527 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-06 09:38:32.575 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47ms. Found 13 JPA repository interfaces.
+[INFO ] 2021-07-06 09:38:32.575 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-06 09:38:32.576 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 0ms. Found 0 JPA repository interfaces.
+[INFO ] 2021-07-06 09:38:33.082 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2021-07-06 09:38:33.329 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1939 (http)
+[INFO ] 2021-07-06 09:38:33.337 [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1939"]
+[INFO ] 2021-07-06 09:38:33.338 [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2021-07-06 09:38:33.338 [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 2021-07-06 09:38:33.480 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/tah-syn] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2021-07-06 09:38:33.480 [main] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1492 ms
+[INFO ] 2021-07-06 09:38:33.702 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-06 09:38:33.768 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.4.9.Final}
+[INFO ] 2021-07-06 09:38:33.889 [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2021-07-06 09:38:34.076 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2021-07-06 09:38:36.394 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-06 09:38:37.257 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-06 09:38:37.266 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-06 09:38:37.285 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-06 09:38:37.311 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+[INFO ] 2021-07-06 09:38:37.317 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-06 09:38:37.622 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-06 09:38:37.622 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-06 09:38:37.649 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-06 09:38:37.672 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+[INFO ] 2021-07-06 09:38:37.678 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-06 09:38:37.760 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-06 09:38:37.760 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-06 09:38:38.387 [main] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+[INFO ] 2021-07-06 09:38:38.398 [main] org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[INFO ] 2021-07-06 09:38:38.400 [main] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+[INFO ] 2021-07-06 09:38:38.401 [main] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+[INFO ] 2021-07-06 09:38:38.401 [main] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerTwo' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[INFO ] 2021-07-06 09:38:38.401 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'schedulerTwo' initialized from an externally provided properties instance.
+[INFO ] 2021-07-06 09:38:38.401 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+[INFO ] 2021-07-06 09:38:38.403 [main] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@658098a2
+[INFO ] 2021-07-06 09:38:38.435 [main] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+[INFO ] 2021-07-06 09:38:38.435 [main] org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[INFO ] 2021-07-06 09:38:38.436 [main] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+[INFO ] 2021-07-06 09:38:38.436 [main] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+[INFO ] 2021-07-06 09:38:38.436 [main] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'bjScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[INFO ] 2021-07-06 09:38:38.436 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'bjScheduler' initialized from an externally provided properties instance.
+[INFO ] 2021-07-06 09:38:38.436 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+[INFO ] 2021-07-06 09:38:38.436 [main] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@3c9cfcde
+[INFO ] 2021-07-06 09:38:38.607 [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2021-07-06 09:38:38.995 [main] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2021-07-06 09:38:39.025 [main] org.springframework.scheduling.quartz.SchedulerFactoryBean - Will start Quartz Scheduler [bjScheduler] in 1 seconds
+[INFO ] 2021-07-06 09:38:39.026 [main] org.springframework.scheduling.quartz.SchedulerFactoryBean - Will start Quartz Scheduler [schedulerTwo] in 1 seconds
+[INFO ] 2021-07-06 09:38:39.035 [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1939"]
+[INFO ] 2021-07-06 09:38:39.086 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 1939 (http) with context path '/tah-syn'
+[INFO ] 2021-07-06 09:38:39.088 [main] com.qzsoft.tah.WsdSynApplication - Started WsdSynApplication in 7.617 seconds (JVM running for 9.389)
+[INFO ] 2021-07-06 09:38:39.376 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:38:40.030 [Quartz Scheduler [bjScheduler]] org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now, after delay of 1 seconds
+[INFO ] 2021-07-06 09:38:40.030 [Quartz Scheduler [schedulerTwo]] org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now, after delay of 1 seconds
+[INFO ] 2021-07-06 09:38:40.030 [Quartz Scheduler [schedulerTwo]] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED started.
+[INFO ] 2021-07-06 09:38:40.030 [Quartz Scheduler [bjScheduler]] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED started.
+[INFO ] 2021-07-06 09:39:00.026 [schedulerTwo_Worker-1] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 01:39:06 
+
+
+[INFO ] 2021-07-06 09:39:01.380 [http-nio-1939-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/tah-syn] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2021-07-06 09:39:01.380 [http-nio-1939-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2021-07-06 09:39:01.386 [http-nio-1939-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+[INFO ] 2021-07-06 09:39:01.414 [http-nio-1939-exec-1] com.qzsoft.tah.service.impl.BjTaskServiceImpl - 
+------同步【用户】基础数据开始----
+
+[INFO ] 2021-07-06 09:39:02.575 [http-nio-1939-exec-1] com.qzsoft.tah.service.impl.BjTaskServiceImpl - 
+------同步【用户】基础数据结束----
+
+[INFO ] 2021-07-06 09:39:02.576 [http-nio-1939-exec-1] com.qzsoft.tah.service.impl.BjTaskServiceImpl - 
+------同步【设备】基础数据开始----
+
+[INFO ] 2021-07-06 09:39:02.585 [http-nio-1939-exec-1] com.qzsoft.tah.service.impl.BjTaskServiceImpl - 
+------同步【设备】基础数据结束----
+
+[INFO ] 2021-07-06 09:39:02.585 [http-nio-1939-exec-1] com.qzsoft.tah.service.impl.BjTaskServiceImpl - 
+------同步【车辆】基础数据开始----
+
+[INFO ] 2021-07-06 09:39:02.594 [http-nio-1939-exec-1] com.qzsoft.tah.service.impl.BjTaskServiceImpl - 
+------同步【车辆】基础数据结束----
+
+[INFO ] 2021-07-06 09:39:09.050 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:39:39.039 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:40:00.008 [schedulerTwo_Worker-2] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 01:40:06 
+
+
+[INFO ] 2021-07-06 09:40:09.041 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:40:39.038 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:41:00.008 [schedulerTwo_Worker-3] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 01:41:06 
+
+
+[INFO ] 2021-07-06 09:41:09.041 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:41:39.040 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:42:00.006 [schedulerTwo_Worker-4] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 01:42:06 
+
+
+[INFO ] 2021-07-06 09:42:09.036 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:42:39.048 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:43:00.014 [schedulerTwo_Worker-5] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 01:43:06 
+
+
+[INFO ] 2021-07-06 09:43:09.043 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:43:39.042 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:44:00.015 [schedulerTwo_Worker-6] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 01:44:06 
+
+
+[INFO ] 2021-07-06 09:44:09.040 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:44:39.049 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:45:00.004 [schedulerTwo_Worker-7] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 01:45:06 
+
+
+[INFO ] 2021-07-06 09:45:09.043 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:45:39.046 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:46:00.014 [schedulerTwo_Worker-8] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 01:46:06 
+
+
+[INFO ] 2021-07-06 09:46:09.050 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:46:39.041 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:47:00.006 [schedulerTwo_Worker-9] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 01:47:06 
+
+
+[INFO ] 2021-07-06 09:47:09.048 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:47:39.045 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:48:00.015 [schedulerTwo_Worker-10] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 01:48:06 
+
+
+[INFO ] 2021-07-06 09:48:09.049 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:48:39.044 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:49:00.008 [schedulerTwo_Worker-1] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 01:49:06 
+
+
+[INFO ] 2021-07-06 09:49:09.040 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:49:39.051 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:50:00.003 [schedulerTwo_Worker-2] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 01:50:06 
+
+
+[INFO ] 2021-07-06 09:50:09.039 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:50:39.042 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:51:00.014 [schedulerTwo_Worker-3] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 01:51:06 
+
+
+[INFO ] 2021-07-06 09:51:09.040 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:51:39.051 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:52:00.004 [schedulerTwo_Worker-4] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 01:52:06 
+
+
+[INFO ] 2021-07-06 09:52:09.051 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:52:39.047 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:53:00.005 [schedulerTwo_Worker-5] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 01:53:06 
+
+
+[INFO ] 2021-07-06 09:53:09.049 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:53:39.041 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:54:00.008 [schedulerTwo_Worker-6] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 01:54:06 
+
+
+[INFO ] 2021-07-06 09:54:09.038 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:54:39.042 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:55:00.009 [schedulerTwo_Worker-7] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 01:55:06 
+
+
+[INFO ] 2021-07-06 09:55:09.041 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:55:39.045 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:56:00.012 [schedulerTwo_Worker-8] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 01:56:06 
+
+
+[INFO ] 2021-07-06 09:56:09.046 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:56:39.049 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:57:00.013 [schedulerTwo_Worker-9] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 01:57:06 
+
+
+[INFO ] 2021-07-06 09:57:09.043 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:57:39.036 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:58:00.001 [schedulerTwo_Worker-10] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 01:58:06 
+
+
+[INFO ] 2021-07-06 09:58:09.048 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:58:39.039 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:59:00.015 [schedulerTwo_Worker-1] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 01:59:06 
+
+
+[INFO ] 2021-07-06 09:59:09.037 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 09:59:39.044 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:00:00.007 [schedulerTwo_Worker-2] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 02:00:06 
+
+
+[INFO ] 2021-07-06 10:00:00.008 [bjScheduler_Worker-1] com.qzsoft.tah.task.ScheduleBJJob - 
+
+【同步lims基础数据】 执行时间: 2021-07-06 02:00:06 
+
+
+[INFO ] 2021-07-06 10:00:00.008 [bjScheduler_Worker-1] com.qzsoft.tah.service.impl.BjTaskServiceImpl - 
+------同步【用户】基础数据开始----
+
+[INFO ] 2021-07-06 10:00:00.041 [bjScheduler_Worker-1] com.qzsoft.tah.service.impl.BjTaskServiceImpl - 
+------同步【用户】基础数据结束----
+
+[INFO ] 2021-07-06 10:00:00.041 [bjScheduler_Worker-1] com.qzsoft.tah.service.impl.BjTaskServiceImpl - 
+------同步【设备】基础数据开始----
+
+[INFO ] 2021-07-06 10:00:00.050 [bjScheduler_Worker-1] com.qzsoft.tah.service.impl.BjTaskServiceImpl - 
+------同步【设备】基础数据结束----
+
+[INFO ] 2021-07-06 10:00:00.050 [bjScheduler_Worker-1] com.qzsoft.tah.service.impl.BjTaskServiceImpl - 
+------同步【车辆】基础数据开始----
+
+[INFO ] 2021-07-06 10:00:00.059 [bjScheduler_Worker-1] com.qzsoft.tah.service.impl.BjTaskServiceImpl - 
+------同步【车辆】基础数据结束----
+
+[INFO ] 2021-07-06 10:00:09.043 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:00:39.036 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:01:00.014 [schedulerTwo_Worker-3] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 02:01:06 
+
+
+[INFO ] 2021-07-06 10:01:09.044 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:01:39.055 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:02:00.015 [schedulerTwo_Worker-4] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 02:02:06 
+
+
+[INFO ] 2021-07-06 10:02:09.037 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:02:39.048 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:03:00.000 [schedulerTwo_Worker-5] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 02:03:06 
+
+
+[INFO ] 2021-07-06 10:03:09.046 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:03:39.043 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:04:00.009 [schedulerTwo_Worker-6] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 02:04:06 
+
+
+[INFO ] 2021-07-06 10:04:09.046 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:04:39.041 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:05:00.013 [schedulerTwo_Worker-7] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 02:05:06 
+
+
+[INFO ] 2021-07-06 10:05:09.041 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:05:39.039 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:06:00.015 [schedulerTwo_Worker-8] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 02:06:06 
+
+
+[INFO ] 2021-07-06 10:06:09.041 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:06:39.042 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:07:00.009 [schedulerTwo_Worker-9] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 02:07:06 
+
+
+[INFO ] 2021-07-06 10:07:09.041 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:07:39.049 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:08:00.016 [schedulerTwo_Worker-10] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 02:08:06 
+
+
+[INFO ] 2021-07-06 10:08:09.047 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:08:39.052 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:09:00.016 [schedulerTwo_Worker-1] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 02:09:06 
+
+
+[INFO ] 2021-07-06 10:09:09.043 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:09:39.044 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:10:00.004 [schedulerTwo_Worker-2] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 02:10:06 
+
+
+[INFO ] 2021-07-06 10:10:09.043 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:10:39.041 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:11:00.014 [schedulerTwo_Worker-3] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 02:11:06 
+
+
+[INFO ] 2021-07-06 10:11:09.049 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:11:39.048 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:12:00.012 [schedulerTwo_Worker-4] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 02:12:06 
+
+
+[INFO ] 2021-07-06 10:12:09.040 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:12:39.049 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:13:00.003 [schedulerTwo_Worker-5] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 02:13:06 
+
+
+[INFO ] 2021-07-06 10:13:09.040 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:13:39.047 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:14:00.007 [schedulerTwo_Worker-6] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 02:14:06 
+
+
+[INFO ] 2021-07-06 10:14:09.047 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:14:39.049 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:15:00.014 [schedulerTwo_Worker-7] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 02:15:06 
+
+
+[INFO ] 2021-07-06 10:15:09.047 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:15:39.047 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:16:00.002 [schedulerTwo_Worker-8] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 02:16:06 
+
+
+[INFO ] 2021-07-06 10:16:09.046 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:16:39.044 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:17:00.014 [schedulerTwo_Worker-9] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 02:17:06 
+
+
+[INFO ] 2021-07-06 10:17:09.047 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:17:39.054 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:18:00.015 [schedulerTwo_Worker-10] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-06 02:18:06 
+
+
+[INFO ] 2021-07-06 10:18:09.046 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-06 10:18:32.227 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED paused.
+[INFO ] 2021-07-06 10:18:32.228 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED paused.
+[INFO ] 2021-07-06 10:18:32.228 [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2021-07-06 10:18:32.229 [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2021-07-06 10:18:32.230 [SpringContextShutdownHook] org.springframework.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+[INFO ] 2021-07-06 10:18:32.230 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED shutting down.
+[INFO ] 2021-07-06 10:18:32.230 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED paused.
+[INFO ] 2021-07-06 10:18:32.230 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED shutdown complete.
+[INFO ] 2021-07-06 10:18:32.230 [SpringContextShutdownHook] org.springframework.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+[INFO ] 2021-07-06 10:18:32.230 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED shutting down.
+[INFO ] 2021-07-06 10:18:32.231 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED paused.
+[INFO ] 2021-07-06 10:18:32.231 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED shutdown complete.
+[INFO ] 2021-07-06 10:18:32.232 [SpringContextShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-06 10:18:32.234 [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed
+[INFO ] 2021-07-06 10:18:32.235 [SpringContextShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-06 10:18:32.235 [SpringContextShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-06 10:18:32.236 [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[INFO ] 2021-07-06 10:18:32.238 [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed

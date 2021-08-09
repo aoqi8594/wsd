@@ -1,0 +1,34 @@
+server:
+  port: 1939
+  application:
+    name: tah-syn
+
+spring:
+  outurl:
+    bj:  https://192.168.2.30:30200/
+  aop:
+    proxy-target-class: true #此项配置很重要，强行使用CGLib的代理方式
+  datasource:
+    # 本地保存数据库地址
+    primary:
+      type: com.alibaba.druid.pool.DruidDataSource
+      driverClassName: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://db:3306/humiture?useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2b8
+      username: root
+      password: Mysql@002
+    # 数据库采集地址
+    secondary:
+      type: com.alibaba.druid.pool.DruidDataSource
+      driverClassName: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://db:3306/humiture?useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2b8
+      username: root
+      password: Mysql@002
+    plrs:
+      type: com.alibaba.druid.pool.DruidDataSource
+      driverClassName: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://192.168.2.16:3306/polaris-iot-open?useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2b8
+      username: lims
+      password: kings123
+
+  jpa:
+    show-sql: true

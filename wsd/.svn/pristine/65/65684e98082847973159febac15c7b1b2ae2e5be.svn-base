@@ -1,0 +1,25 @@
+server:
+  port: 50008
+  application:
+    name: tah-syn
+
+spring:
+  aop:
+    proxy-target-class: true #此项配置很重要，强行使用CGLib的代理方式
+  datasource:
+    primary:
+      type: com.alibaba.druid.pool.DruidDataSource
+      driverClassName: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://192.168.2.229:3309/humiture?useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2b8
+      username: root
+      password: Mysql@002
+
+    secondary:
+      type: com.alibaba.druid.pool.DruidDataSource
+      driverClassName: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://192.168.2.229:3309/humiture?useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2b8
+      username: root
+      password: Mysql@002
+
+  jpa:
+    show-sql: true

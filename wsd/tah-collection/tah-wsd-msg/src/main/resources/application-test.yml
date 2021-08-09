@@ -1,0 +1,49 @@
+server:
+  port: 20304
+  servlet:
+    context-path: /tah-msg
+spring:
+  datasource:
+    dynamic:
+      primary: mysql
+      datasource:
+        mysql:
+          url: jdbc:mysql://192.168.0.241:3306/humiture?useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2b8
+          username: root
+          password: Mysql@002
+        sqlserver:
+          url: jdbc:sqlserver://111.198.157.195:1433;DatabaseName=ZHIFY_CLS_4G
+          username: sa
+          password: zxc,./123
+  jpa:
+    show-sql: false
+  application:
+    name: tah-msg
+  aop:
+    proxy-target-class: true #此项配置很重要，强行使用CGLib的代理方式
+
+tah:
+  notify:
+    mail:
+      enable: true
+      host: smtp.263.net
+      username: bjsazx@cfqs.org
+      password: sazx2021
+      sendfrom: bjsazx@cfqs.org
+      sendto:
+      port: 25
+    sms:
+      enable: true
+      account: jxptsy
+      password: qzgs2014
+      userid: 954
+      sign: 温湿度
+      send-url: http://dc.28inter.com/sms.aspx?action=send&rt=json
+      count-url: http://dc.28inter.com/sms.aspx?action=overage&rt=json
+  holiday:
+    free-url1: http://tool.bitefu.net/jiari/?d=
+  excel:
+    path: /home/wsd/export/
+  time:
+    lc-hour: 2
+

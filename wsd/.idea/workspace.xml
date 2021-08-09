@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2155a797-4211-4776-b7c4-ab07f56a2cc9" name="Default Changelist" comment="报警内容修改">
+      <change afterPath="$PROJECT_DIR$/tah-collection/tah-wsd-msg/tah-wsd-msg.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tah-collection/tah-collection.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tah-collection/tah-collection.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tah-collection/tah-wsd-platform/tah-wsd-platform.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tah-collection/tah-wsd-platform/tah-wsd-platform.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tah-collection/tah-wsd-syn/tah-wsd-syn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tah-collection/tah-wsd-syn/tah-wsd-syn.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/tah-collection/tah-wsd-platform/src/main/java/com/qzsoft/tah/mapper/WsdPtSyncUndoRecordInfoMapper.xml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/tah-collection/tah-wsd-platform/src/main/java/com/qzsoft/tah/mapper/WsdDevBMapper.xml" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1sCbZBkcKj9rdkIqEHFFC9P6nCJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="2" id="Remove" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="06b51232-31a7-4d49-880c-e75b034944aa" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tah-collection/tah-wsd-platform/src/main/java/com/qzsoft/tah/mapper" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wsd\tah-collection\tah-wsd-platform\src\main\java\com\qzsoft\tah\mapper" />
+      <recent name="D:\wsd\tah-collection\tah-wsd-platform\src\main\java\com\qzsoft\tah\dao" />
+      <recent name="D:\wsd\tah-collection\tah-wsd-platform\src\main\java\com\qzsoft\tah\serviceNew" />
+      <recent name="D:\wsd\tah-collection\tah-wsd-platform\src\main\java\com\qzsoft\tah\model" />
+      <recent name="D:\wsd\tah-collection\tah-wsd-platform\src\main\java\com\qzsoft\tah" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wsd\tah-collection\tah-wsd-platform\src\main\resources\mapper" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.qzsoft.tah.mybatis" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qzsoft.tah.vo" />
+      <recent name="com.qzsoft.tah.enums" />
+      <recent name="com.qzsoft.tah" />
+      <recent name="com.qzsoft.tah.entity" />
+      <recent name="com.qzsoft.tah.dao.wsd" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="com.qzsoft.tah.entity.bj" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.TahMsgApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestJunit.testmethod01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tah-wsd-platform" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qzsoft.tah.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qzsoft.tah" />
+      <option name="MAIN_CLASS_NAME" value="com.qzsoft.tah.TestJunit" />
+      <option name="METHOD_NAME" value="testmethod01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestJunit.testmethod02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tah-wsd-platform" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qzsoft.tah.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qzsoft.tah" />
+      <option name="MAIN_CLASS_NAME" value="com.qzsoft.tah.TestJunit" />
+      <option name="METHOD_NAME" value="testmethod02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestJunit.testmethod03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tah-wsd-platform" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qzsoft.tah.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qzsoft.tah" />
+      <option name="MAIN_CLASS_NAME" value="com.qzsoft.tah.TestJunit" />
+      <option name="METHOD_NAME" value="testmethod03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestJunit.testmethod0606" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tah-wsd-platform" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qzsoft.tah.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qzsoft.tah" />
+      <option name="MAIN_CLASS_NAME" value="com.qzsoft.tah.TestJunit" />
+      <option name="METHOD_NAME" value="testmethod0606" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TahCollectionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tah-wsd-platform" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qzsoft.tah.TahCollectionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TahMsgApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tah-wsd-msg" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qzsoft.tah.TahMsgApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TahPlatFormApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="tah-wsd-platform" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qzsoft.tah.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qzsoft.tah.TahPlatFormApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WsdSynApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tah-wsd-syn" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qzsoft.tah.WsdSynApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestJunit.testmethod01" />
+        <item itemvalue="JUnit.TestJunit.testmethod03" />
+        <item itemvalue="JUnit.TestJunit.testmethod02" />
+        <item itemvalue="JUnit.TestJunit.testmethod0606" />
+        <item itemvalue="Spring Boot.TahPlatFormApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\aq\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\wsd" />
+          <option name="myCopyRoot" value="D:\wsd" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\wsd" />
+          <option name="myCopyRoot" value="D:\wsd" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2155a797-4211-4776-b7c4-ab07f56a2cc9" name="Default Changelist" comment="" />
+      <created>1620379571442</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620379571442</updated>
+      <workItem from="1620379572644" duration="7292000" />
+      <workItem from="1620436209812" duration="14299000" />
+      <workItem from="1620608703092" duration="17846000" />
+      <workItem from="1620954108555" duration="8589000" />
+      <workItem from="1620971274855" duration="4245000" />
+      <workItem from="1621213587501" duration="1855000" />
+      <workItem from="1621299299835" duration="4487000" />
+      <workItem from="1621401964090" duration="4012000" />
+      <workItem from="1621818843598" duration="1458000" />
+      <workItem from="1622103294321" duration="594000" />
+      <workItem from="1622107059795" duration="64077000" />
+      <workItem from="1623375015802" duration="1362000" />
+      <workItem from="1623892486185" duration="2740000" />
+      <workItem from="1623896371642" duration="60618000" />
+      <workItem from="1624861249036" duration="54185000" />
+      <workItem from="1625629317773" duration="27902000" />
+      <workItem from="1626247987418" duration="9675000" />
+      <workItem from="1626257903199" duration="15908000" />
+      <workItem from="1626671324133" duration="604000" />
+      <workItem from="1626685140652" duration="8015000" />
+      <workItem from="1626835983200" duration="198000" />
+      <workItem from="1626943764453" duration="32211000" />
+      <workItem from="1627696195819" duration="15932000" />
+      <workItem from="1627867906936" duration="1307000" />
+      <workItem from="1627887484325" duration="6353000" />
+    </task>
+    <task id="LOCAL-00001" summary="添加归属类型以及位置">
+      <created>1620457854916</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620457854916</updated>
+    </task>
+    <task id="LOCAL-00002" summary="删除PRError">
+      <created>1620612214140</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620612214140</updated>
+    </task>
+    <task id="LOCAL-00003" summary="报警内容修改">
+      <created>1620883203965</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1620883203965</updated>
+    </task>
+    <task id="LOCAL-00004" summary="报警内容修改">
+      <created>1620959199171</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620959199171</updated>
+    </task>
+    <task id="LOCAL-00005" summary="报警内容修改">
+      <created>1621395705946</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1621395705946</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update lims devs data">
+      <created>1622623483198</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1622623483198</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add test branch">
+      <created>1622623630254</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1622623630254</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update car info">
+      <created>1622688522158</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1622688522158</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update">
+      <created>1622688723872</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1622688723872</updated>
+    </task>
+    <task id="LOCAL-00010" summary="lims同步">
+      <created>1623925042632</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1623925042632</updated>
+    </task>
+    <task id="LOCAL-00011" summary="北京食品Lims数据库地址3366">
+      <created>1623994998714</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1623994998714</updated>
+    </task>
+    <task id="LOCAL-00012" summary="2小时同步一次">
+      <created>1623995024323</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1623995024323</updated>
+    </task>
+    <task id="LOCAL-00013" summary="同步接口调整">
+      <created>1625464169796</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1625464169796</updated>
+    </task>
+    <task id="LOCAL-00014" summary="同步接口调整">
+      <created>1625464248845</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1625464248845</updated>
+    </task>
+    <task id="LOCAL-00015" summary="https忽略证书校验">
+      <created>1625538108789</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1625538108789</updated>
+    </task>
+    <task id="LOCAL-00016" summary="车辆关联设备left join">
+      <created>1625734322757</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1625734322758</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add redis">
+      <created>1627371403763</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1627371403764</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加归属类型以及位置" />
+    <MESSAGE value="删除PRError" />
+    <MESSAGE value="update lims devs data" />
+    <MESSAGE value="add test branch" />
+    <MESSAGE value="update car info" />
+    <MESSAGE value="lims同步" />
+    <MESSAGE value="北京食品Lims数据库地址3366" />
+    <MESSAGE value="2小时同步一次" />
+    <MESSAGE value="同步接口调整" />
+    <MESSAGE value="https忽略证书校验" />
+    <MESSAGE value="车辆关联设备改成left join" />
+    <MESSAGE value="报警内容修改" />
+    <MESSAGE value="update" />
+    <MESSAGE value="车辆关联设备left join" />
+    <MESSAGE value="add redis" />
+    <option name="LAST_COMMIT_MESSAGE" value="add redis" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/tah-collection/tah-wsd-syn/src/main/java/com/qzsoft/tah/task/CollectionScheduleSynTask.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/tah-collection/tah-wsd-platform/src/main/java/com/qzsoft/tah/config/Generator.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="generator.getDbDir()" />
+        <watch expression="MybatisDbConfigProperty.getDbUrl()" />
+      </configuration>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="sql.toString()" />
+        <watch expression="devId" />
+        <watch expression="map.put(&quot;belongType&quot;,&quot;SYS&quot;)" />
+        <watch expression="map.get(&quot;location&quot;)" />
+        <watch expression="AlarmTypeEnum.CGSD.getDesc() + String.format(&quot;（湿度：%s%RH）&quot;,wsdDevB.getHumidity())" />
+        <watch expression="AlarmTypeEnum.CGSD.getDesc() " />
+        <watch expression="String.format(&quot;（湿度：%s\\%RH）&quot;,wsdDevB.getHumidity())" />
+        <watch expression=" String.format(&quot;（湿度：%s%%RH）&quot;,wsdDevB.getHumidity())" />
+        <watch expression="infoStr" />
+        <watch expression="sbglEqpBEntity.getDutyPerson()" />
+        <watch expression="sbglEqpBEntity.getId()" />
+        <watch expression="var26" />
+        <watch expression="se" />
+        <watch expression=" var3.getTargetException()" />
+        <watch expression="this.methodInvoker" />
+        <watch expression="var3" />
+        <watch expression="var25" />
+        <watch expression="System.getProperty(&quot;spring.datasource.url&quot;)" />
+        <watch expression="entry.getKey()" />
+        <watch expression="entry.getValue()" />
+        <watch expression="JSON.parseArray(obj)" />
+        <watch expression="BeanParseUtils.populate(YwpzUserSEntity.class, valMap)" />
+        <watch expression="wsdCarB.getId()" />
+        <watch expression="wsdCarGpsLDao.findWsdCarGpsLSByCarTaskIdOrderByCreateTimeDesc(wsdCarB.getId())" />
+      </configuration>
+      <configuration name="Application">
+        <watch expression="getDbDir()" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/wsd$WsdSynApplication.ic" NAME="WsdSynApplication Coverage Results" MODIFIED="1625455271983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

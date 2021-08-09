@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="false" scan="true" scanPeriod="60 second">
+
+    <property name="PROJECT" value="tah-msg"/>
+    <!--<property name="ROOT" value=" /home/admin/project/logs/${PROJECT}/"/>-->
+    <property name="ROOT" value="tah-collection/logs/${PROJECT}/"/>
+    <property name="MAXFILESIZE" value="512MB"/>
+    <property name="MAXHISTORY" value="30"/>
+    <property name="DATETIME" value="yyyy-MM-dd HH:mm:ss.SSS"/>
+
+    <!-- 控制台打印 -->
+    <!--%logger{100} 表示logger名字最长100个字符，否则按照句点分割-->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder charset="utf-8">
+            <pattern>[%-5level] %d{${DATETIME}} [%thread] %logger{100} - %m%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="INFO" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <encoder charset="utf-8">
+            <pattern>[%-5level] %d{${DATETIME}} [%thread] %logger{100} - %m%n</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${ROOT}%d{yyyy-MM-dd}/%d{yyyy-MM-dd}(%d{HH})-info-%i.log</fileNamePattern>
+            <maxHistory>${MAXHISTORY}</maxHistory>
+            <maxFileSize>${MAXFILESIZE}</maxFileSize>
+        </rollingPolicy>
+    </appender>
+    
+    <appender name="WARN" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <encoder charset="utf-8">
+            <pattern>[%-5level] %d{${DATETIME}} [%thread] %logger{100} - %m%n</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>WARN</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${ROOT}%d{yyyy-MM-dd}/%d{yyyy-MM-dd}(%d{HH})-warn-%i.log</fileNamePattern>
+            <maxHistory>${MAXHISTORY}</maxHistory>
+           	<maxFileSize>${MAXFILESIZE}</maxFileSize>
+        </rollingPolicy>
+    </appender>
+    
+    <appender name="ERROR" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <encoder charset="utf-8">
+            <pattern>[%-5level] %d{${DATETIME}} [%thread] %logger{100} - %m%n
+            </pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${ROOT}%d{yyyy-MM-dd}/%d{yyyy-MM-dd}(%d{HH})-error-%i.log</fileNamePattern>
+            <maxHistory>${MAXHISTORY}</maxHistory>
+            <maxFileSize>${MAXFILESIZE}</maxFileSize>
+        </rollingPolicy>
+    </appender>
+
+    <!--DEBUG 输入到文件，按日期和文件大小-->
+<!--     <appender name="DEBUG" class="ch.qos.logback.core.rolling.RollingFileAppender"> -->
+<!--         <encoder charset="utf-8"> -->
+<!--             <pattern>[%-5level] %d{${DATETIME}} [%thread] %logger{100} - %m%n -->
+<!--             </pattern> -->
+<!--         </encoder> -->
+<!--         <filter class="ch.qos.logback.classic.filter.LevelFilter"> -->
+<!--             <level>DEBUG</level> -->
+<!--             <onMatch>ACCEPT</onMatch> -->
+<!--             <onMismatch>DENY</onMismatch> -->
+<!--         </filter> -->
+<!--         <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy"> -->
+<!--             <fileNamePattern>${ROOT}%d{yyyy-MM-dd}/%d{yyyy-MM-dd}(%d{HH})-debug-%i.log</fileNamePattern> -->
+<!--             <maxHistory>${MAXHISTORY}</maxHistory> -->
+<!--             <maxFileSize>${MAXFILESIZE}</maxFileSize> -->
+<!--         </rollingPolicy> -->
+<!--     </appender> -->
+
+    <!-- SQL相关日志输出-->
+    <!-- org.apache.ibatis包下通过LoggerFactory.getLogger(?.class)获取的日志全部由INFO appender处理 -->
+    <!-- 根日志,所有logger默认继承自root，打印信息向上级传递，所以以上logger所打印的日志默认被 STDOUT appender再处理一遍，
+        也就是会被打印到控制台，可以再通过设置logger的additivity="false"，使得不再向上传递
+    -->
+    <logger name="org.hibernate.SQL" level="INFO" additivity="false">
+        <appender-ref ref="INFO"/>
+    </logger>
+    <logger name="org.hibernate.type.descriptor.sql.BasicBinder" level="INFO" additivity="false"/>
+
+    <!-- Logger 根目录 -->
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="INFO"/>
+        <appender-ref ref="WARN"/>
+        <appender-ref ref="ERROR"/>
+        <!--<appender-ref ref="DEBUG"/>-->
+    </root>
+</configuration>

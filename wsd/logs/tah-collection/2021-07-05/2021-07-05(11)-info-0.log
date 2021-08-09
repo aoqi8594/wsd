@@ -1,0 +1,1441 @@
+[INFO ] 2021-07-05 11:02:42.935 [main] com.qzsoft.tah.WsdSynApplication - Starting WsdSynApplication on DESKTOP-2S2GF81 with PID 21868 (D:\wsd\tah-collection\tah-wsd-syn\target\classes started by aq in D:\wsd)
+[INFO ] 2021-07-05 11:02:43.255 [main] com.qzsoft.tah.WsdSynApplication - The following profiles are active: dev
+[INFO ] 2021-07-05 11:02:44.306 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-05 11:02:44.401 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 83ms. Found 1 JPA repository interfaces.
+[INFO ] 2021-07-05 11:02:44.409 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-05 11:02:44.472 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 62ms. Found 13 JPA repository interfaces.
+[INFO ] 2021-07-05 11:02:44.472 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-05 11:02:44.473 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 0ms. Found 0 JPA repository interfaces.
+[INFO ] 2021-07-05 11:02:45.479 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2021-07-05 11:02:45.948 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1939 (http)
+[INFO ] 2021-07-05 11:02:45.960 [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1939"]
+[INFO ] 2021-07-05 11:02:45.961 [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2021-07-05 11:02:45.961 [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 2021-07-05 11:02:46.178 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/tah-syn] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2021-07-05 11:02:46.178 [main] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2825 ms
+[INFO ] 2021-07-05 11:02:46.494 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-05 11:02:46.612 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.4.9.Final}
+[INFO ] 2021-07-05 11:02:46.802 [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2021-07-05 11:02:47.069 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2021-07-05 11:02:47.185 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-05 11:02:47.920 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-05 11:02:47.933 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:02:47.952 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-05 11:02:47.983 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+[INFO ] 2021-07-05 11:02:47.990 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-05 11:02:48.291 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-05 11:02:48.291 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:02:48.310 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-05 11:02:48.336 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+[INFO ] 2021-07-05 11:02:48.342 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-05 11:02:48.463 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-05 11:02:48.463 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:02:49.124 [main] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+[INFO ] 2021-07-05 11:02:49.137 [main] org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[INFO ] 2021-07-05 11:02:49.138 [main] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+[INFO ] 2021-07-05 11:02:49.139 [main] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+[INFO ] 2021-07-05 11:02:49.140 [main] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerTwo' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[INFO ] 2021-07-05 11:02:49.140 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'schedulerTwo' initialized from an externally provided properties instance.
+[INFO ] 2021-07-05 11:02:49.140 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+[INFO ] 2021-07-05 11:02:49.142 [main] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@b791e6e
+[INFO ] 2021-07-05 11:02:49.176 [main] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+[INFO ] 2021-07-05 11:02:49.177 [main] org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[INFO ] 2021-07-05 11:02:49.178 [main] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+[INFO ] 2021-07-05 11:02:49.178 [main] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+[INFO ] 2021-07-05 11:02:49.178 [main] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'bjScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[INFO ] 2021-07-05 11:02:49.178 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'bjScheduler' initialized from an externally provided properties instance.
+[INFO ] 2021-07-05 11:02:49.178 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+[INFO ] 2021-07-05 11:02:49.178 [main] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@c79915a
+[INFO ] 2021-07-05 11:02:49.349 [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2021-07-05 11:02:49.626 [main] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2021-07-05 11:02:49.655 [main] org.springframework.scheduling.quartz.SchedulerFactoryBean - Will start Quartz Scheduler [bjScheduler] in 1 seconds
+[INFO ] 2021-07-05 11:02:49.656 [main] org.springframework.scheduling.quartz.SchedulerFactoryBean - Will start Quartz Scheduler [schedulerTwo] in 1 seconds
+[INFO ] 2021-07-05 11:02:49.665 [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1939"]
+[INFO ] 2021-07-05 11:02:49.691 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 1939 (http) with context path '/tah-syn'
+[INFO ] 2021-07-05 11:02:49.693 [main] com.qzsoft.tah.WsdSynApplication - Started WsdSynApplication in 8.542 seconds (JVM running for 17.184)
+[INFO ] 2021-07-05 11:02:49.872 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:02:50.663 [Quartz Scheduler [bjScheduler]] org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now, after delay of 1 seconds
+[INFO ] 2021-07-05 11:02:50.663 [Quartz Scheduler [schedulerTwo]] org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now, after delay of 1 seconds
+[INFO ] 2021-07-05 11:02:50.664 [Quartz Scheduler [bjScheduler]] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED started.
+[INFO ] 2021-07-05 11:02:50.664 [Quartz Scheduler [schedulerTwo]] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED started.
+[INFO ] 2021-07-05 11:03:00.023 [schedulerTwo_Worker-1] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-05 03:03:05 
+
+
+[INFO ] 2021-07-05 11:03:00.105 [schedulerTwo_Worker-1] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:48.5 成功。。。 
+[INFO ] 2021-07-05 11:03:00.159 [schedulerTwo_Worker-1] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:03:00.203 [schedulerTwo_Worker-1] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:49.3 成功。。。 
+[INFO ] 2021-07-05 11:03:00.220 [schedulerTwo_Worker-1] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:03:19.667 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:03:49.675 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:04:00.010 [schedulerTwo_Worker-2] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-05 03:04:05 
+
+
+[INFO ] 2021-07-05 11:04:00.057 [schedulerTwo_Worker-2] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:48.5 成功。。。 
+[INFO ] 2021-07-05 11:04:00.073 [schedulerTwo_Worker-2] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:04:00.113 [schedulerTwo_Worker-2] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:49.3 成功。。。 
+[INFO ] 2021-07-05 11:04:00.130 [schedulerTwo_Worker-2] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:04:00.246 [schedulerTwo_Worker-2] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: -20.9,湿度:57.1 成功。。。 
+[INFO ] 2021-07-05 11:04:00.255 [schedulerTwo_Worker-2] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:04:00.268 [schedulerTwo_Worker-2] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【报警记录】 生成成功。。。。 
+[INFO ] 2021-07-05 11:04:19.669 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:04:49.667 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:05:00.009 [schedulerTwo_Worker-3] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-05 03:05:05 
+
+
+[INFO ] 2021-07-05 11:05:00.030 [schedulerTwo_Worker-3] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:48.5 成功。。。 
+[INFO ] 2021-07-05 11:05:00.044 [schedulerTwo_Worker-3] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:05:00.059 [schedulerTwo_Worker-3] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:49.3 成功。。。 
+[INFO ] 2021-07-05 11:05:00.073 [schedulerTwo_Worker-3] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:05:19.666 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:05:35.207 [http-nio-1939-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/tah-syn] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2021-07-05 11:05:35.207 [http-nio-1939-exec-2] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2021-07-05 11:05:35.215 [http-nio-1939-exec-2] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+[INFO ] 2021-07-05 11:05:35.238 [http-nio-1939-exec-2] com.qzsoft.tah.service.impl.BjTaskServiceImpl - 
+------同步【用户】基础数据开始----
+
+[INFO ] 2021-07-05 11:05:38.173 [http-nio-1939-exec-2] com.qzsoft.tah.service.impl.BjTaskServiceImpl - 
+------同步【用户】基础数据结束----
+
+[INFO ] 2021-07-05 11:05:49.667 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:06:00.009 [schedulerTwo_Worker-4] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-05 03:06:05 
+
+
+[INFO ] 2021-07-05 11:06:00.028 [schedulerTwo_Worker-4] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:48.5 成功。。。 
+[INFO ] 2021-07-05 11:06:00.038 [schedulerTwo_Worker-4] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:06:00.063 [schedulerTwo_Worker-4] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:49.3 成功。。。 
+[INFO ] 2021-07-05 11:06:00.071 [schedulerTwo_Worker-4] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:06:00.094 [schedulerTwo_Worker-4] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: -20.9,湿度:57.1 成功。。。 
+[INFO ] 2021-07-05 11:06:00.104 [schedulerTwo_Worker-4] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:06:00.117 [schedulerTwo_Worker-4] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【报警记录】 生成成功。。。。 
+[INFO ] 2021-07-05 11:06:19.680 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:06:49.667 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:06:57.890 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED paused.
+[INFO ] 2021-07-05 11:06:57.891 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED paused.
+[INFO ] 2021-07-05 11:06:57.891 [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2021-07-05 11:06:57.892 [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2021-07-05 11:06:57.893 [SpringContextShutdownHook] org.springframework.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+[INFO ] 2021-07-05 11:06:57.893 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED shutting down.
+[INFO ] 2021-07-05 11:06:57.893 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED paused.
+[INFO ] 2021-07-05 11:06:57.893 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED shutdown complete.
+[INFO ] 2021-07-05 11:06:57.893 [SpringContextShutdownHook] org.springframework.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+[INFO ] 2021-07-05 11:06:57.893 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED shutting down.
+[INFO ] 2021-07-05 11:06:57.893 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED paused.
+[INFO ] 2021-07-05 11:06:57.894 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED shutdown complete.
+[INFO ] 2021-07-05 11:06:57.895 [SpringContextShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:06:57.901 [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed
+[INFO ] 2021-07-05 11:06:57.901 [SpringContextShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:06:57.903 [SpringContextShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:06:57.904 [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[INFO ] 2021-07-05 11:06:57.905 [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+[INFO ] 2021-07-05 11:07:09.025 [main] com.qzsoft.tah.WsdSynApplication - Starting WsdSynApplication on DESKTOP-2S2GF81 with PID 3004 (D:\wsd\tah-collection\tah-wsd-syn\target\classes started by aq in D:\wsd)
+[INFO ] 2021-07-05 11:07:09.029 [main] com.qzsoft.tah.WsdSynApplication - The following profiles are active: dev
+[INFO ] 2021-07-05 11:07:09.568 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-05 11:07:09.621 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43ms. Found 1 JPA repository interfaces.
+[INFO ] 2021-07-05 11:07:09.622 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-05 11:07:09.670 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48ms. Found 13 JPA repository interfaces.
+[INFO ] 2021-07-05 11:07:09.670 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-05 11:07:09.671 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 0ms. Found 0 JPA repository interfaces.
+[INFO ] 2021-07-05 11:07:10.194 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2021-07-05 11:07:10.447 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1939 (http)
+[INFO ] 2021-07-05 11:07:10.456 [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1939"]
+[INFO ] 2021-07-05 11:07:10.456 [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2021-07-05 11:07:10.457 [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 2021-07-05 11:07:10.603 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/tah-syn] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2021-07-05 11:07:10.603 [main] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1497 ms
+[INFO ] 2021-07-05 11:07:10.832 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-05 11:07:10.899 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.4.9.Final}
+[INFO ] 2021-07-05 11:07:11.020 [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2021-07-05 11:07:11.215 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2021-07-05 11:07:11.334 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-05 11:07:11.915 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-05 11:07:11.923 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:07:11.941 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-05 11:07:11.968 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+[INFO ] 2021-07-05 11:07:11.973 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-05 11:07:12.268 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-05 11:07:12.268 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:07:12.288 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-05 11:07:12.312 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+[INFO ] 2021-07-05 11:07:12.317 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-05 11:07:12.398 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-05 11:07:12.399 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:07:12.948 [main] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+[INFO ] 2021-07-05 11:07:12.957 [main] org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[INFO ] 2021-07-05 11:07:12.959 [main] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+[INFO ] 2021-07-05 11:07:12.960 [main] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+[INFO ] 2021-07-05 11:07:12.960 [main] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerTwo' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[INFO ] 2021-07-05 11:07:12.960 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'schedulerTwo' initialized from an externally provided properties instance.
+[INFO ] 2021-07-05 11:07:12.960 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+[INFO ] 2021-07-05 11:07:12.962 [main] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@4ef277ef
+[INFO ] 2021-07-05 11:07:12.991 [main] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+[INFO ] 2021-07-05 11:07:12.992 [main] org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[INFO ] 2021-07-05 11:07:12.992 [main] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+[INFO ] 2021-07-05 11:07:12.993 [main] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+[INFO ] 2021-07-05 11:07:12.993 [main] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'bjScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[INFO ] 2021-07-05 11:07:12.993 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'bjScheduler' initialized from an externally provided properties instance.
+[INFO ] 2021-07-05 11:07:12.993 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+[INFO ] 2021-07-05 11:07:12.993 [main] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@912a644
+[INFO ] 2021-07-05 11:07:13.155 [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2021-07-05 11:07:13.449 [main] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2021-07-05 11:07:13.481 [main] org.springframework.scheduling.quartz.SchedulerFactoryBean - Will start Quartz Scheduler [bjScheduler] in 1 seconds
+[INFO ] 2021-07-05 11:07:13.482 [main] org.springframework.scheduling.quartz.SchedulerFactoryBean - Will start Quartz Scheduler [schedulerTwo] in 1 seconds
+[INFO ] 2021-07-05 11:07:13.491 [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1939"]
+[INFO ] 2021-07-05 11:07:13.515 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 1939 (http) with context path '/tah-syn'
+[INFO ] 2021-07-05 11:07:13.518 [main] com.qzsoft.tah.WsdSynApplication - Started WsdSynApplication in 4.977 seconds (JVM running for 6.82)
+[INFO ] 2021-07-05 11:07:13.759 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:07:14.488 [Quartz Scheduler [bjScheduler]] org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now, after delay of 1 seconds
+[INFO ] 2021-07-05 11:07:14.488 [Quartz Scheduler [bjScheduler]] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED started.
+[INFO ] 2021-07-05 11:07:14.488 [Quartz Scheduler [schedulerTwo]] org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now, after delay of 1 seconds
+[INFO ] 2021-07-05 11:07:14.489 [Quartz Scheduler [schedulerTwo]] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED started.
+[INFO ] 2021-07-05 11:07:43.507 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:07:45.520 [http-nio-1939-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/tah-syn] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2021-07-05 11:07:45.520 [http-nio-1939-exec-2] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2021-07-05 11:07:45.528 [http-nio-1939-exec-2] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+[INFO ] 2021-07-05 11:07:45.550 [http-nio-1939-exec-2] com.qzsoft.tah.service.impl.BjTaskServiceImpl - 
+------同步【用户】基础数据开始----
+
+[INFO ] 2021-07-05 11:07:46.504 [http-nio-1939-exec-2] com.qzsoft.tah.service.impl.BjTaskServiceImpl - 
+------同步【用户】基础数据结束----
+
+[INFO ] 2021-07-05 11:08:00.027 [schedulerTwo_Worker-1] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-05 03:08:05 
+
+
+[INFO ] 2021-07-05 11:08:00.079 [schedulerTwo_Worker-1] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:48.5 成功。。。 
+[INFO ] 2021-07-05 11:08:00.126 [schedulerTwo_Worker-1] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:08:00.151 [schedulerTwo_Worker-1] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:49.3 成功。。。 
+[INFO ] 2021-07-05 11:08:00.160 [schedulerTwo_Worker-1] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:08:13.496 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:08:43.501 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:08:59.929 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED paused.
+[INFO ] 2021-07-05 11:08:59.929 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED paused.
+[INFO ] 2021-07-05 11:08:59.929 [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2021-07-05 11:08:59.930 [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2021-07-05 11:08:59.931 [SpringContextShutdownHook] org.springframework.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+[INFO ] 2021-07-05 11:08:59.931 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED shutting down.
+[INFO ] 2021-07-05 11:08:59.931 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED paused.
+[INFO ] 2021-07-05 11:08:59.931 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED shutdown complete.
+[INFO ] 2021-07-05 11:08:59.932 [SpringContextShutdownHook] org.springframework.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+[INFO ] 2021-07-05 11:08:59.932 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED shutting down.
+[INFO ] 2021-07-05 11:08:59.932 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED paused.
+[INFO ] 2021-07-05 11:08:59.932 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED shutdown complete.
+[INFO ] 2021-07-05 11:08:59.934 [SpringContextShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:08:59.938 [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed
+[INFO ] 2021-07-05 11:08:59.939 [SpringContextShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:08:59.939 [SpringContextShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:08:59.940 [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[INFO ] 2021-07-05 11:08:59.940 [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+[INFO ] 2021-07-05 11:14:37.983 [main] com.qzsoft.tah.WsdSynApplication - Starting WsdSynApplication on DESKTOP-2S2GF81 with PID 5768 (D:\wsd\tah-collection\tah-wsd-syn\target\classes started by aq in D:\wsd)
+[INFO ] 2021-07-05 11:14:37.985 [main] com.qzsoft.tah.WsdSynApplication - The following profiles are active: dev
+[INFO ] 2021-07-05 11:14:38.490 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-05 11:14:38.542 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43ms. Found 1 JPA repository interfaces.
+[INFO ] 2021-07-05 11:14:38.542 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-05 11:14:38.588 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45ms. Found 13 JPA repository interfaces.
+[INFO ] 2021-07-05 11:14:38.588 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-05 11:14:38.589 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 0ms. Found 0 JPA repository interfaces.
+[INFO ] 2021-07-05 11:14:39.086 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2021-07-05 11:14:39.331 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1939 (http)
+[INFO ] 2021-07-05 11:14:39.339 [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1939"]
+[INFO ] 2021-07-05 11:14:39.340 [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2021-07-05 11:14:39.340 [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 2021-07-05 11:14:39.479 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/tah-syn] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2021-07-05 11:14:39.479 [main] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1424 ms
+[INFO ] 2021-07-05 11:14:39.695 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-05 11:14:39.760 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.4.9.Final}
+[INFO ] 2021-07-05 11:14:39.878 [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2021-07-05 11:14:40.058 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2021-07-05 11:14:40.165 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-05 11:14:40.718 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-05 11:14:40.727 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:14:40.744 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-05 11:14:40.770 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+[INFO ] 2021-07-05 11:14:40.776 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-05 11:14:41.075 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-05 11:14:41.075 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:14:41.095 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-05 11:14:41.120 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+[INFO ] 2021-07-05 11:14:41.125 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-05 11:14:41.205 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-05 11:14:41.206 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:14:41.760 [main] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+[INFO ] 2021-07-05 11:14:41.770 [main] org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[INFO ] 2021-07-05 11:14:41.771 [main] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+[INFO ] 2021-07-05 11:14:41.772 [main] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+[INFO ] 2021-07-05 11:14:41.773 [main] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerTwo' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[INFO ] 2021-07-05 11:14:41.773 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'schedulerTwo' initialized from an externally provided properties instance.
+[INFO ] 2021-07-05 11:14:41.773 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+[INFO ] 2021-07-05 11:14:41.774 [main] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@52849956
+[INFO ] 2021-07-05 11:14:41.804 [main] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+[INFO ] 2021-07-05 11:14:41.805 [main] org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[INFO ] 2021-07-05 11:14:41.805 [main] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+[INFO ] 2021-07-05 11:14:41.805 [main] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+[INFO ] 2021-07-05 11:14:41.805 [main] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'bjScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[INFO ] 2021-07-05 11:14:41.806 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'bjScheduler' initialized from an externally provided properties instance.
+[INFO ] 2021-07-05 11:14:41.806 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+[INFO ] 2021-07-05 11:14:41.806 [main] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@d17d554
+[INFO ] 2021-07-05 11:14:41.965 [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2021-07-05 11:14:42.240 [main] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2021-07-05 11:14:42.271 [main] org.springframework.scheduling.quartz.SchedulerFactoryBean - Will start Quartz Scheduler [bjScheduler] in 1 seconds
+[INFO ] 2021-07-05 11:14:42.271 [main] org.springframework.scheduling.quartz.SchedulerFactoryBean - Will start Quartz Scheduler [schedulerTwo] in 1 seconds
+[INFO ] 2021-07-05 11:14:42.280 [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1939"]
+[INFO ] 2021-07-05 11:14:42.306 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 1939 (http) with context path '/tah-syn'
+[INFO ] 2021-07-05 11:14:42.314 [main] com.qzsoft.tah.WsdSynApplication - Started WsdSynApplication in 4.721 seconds (JVM running for 7.191)
+[INFO ] 2021-07-05 11:14:42.546 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:14:43.277 [Quartz Scheduler [bjScheduler]] org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now, after delay of 1 seconds
+[INFO ] 2021-07-05 11:14:43.277 [Quartz Scheduler [schedulerTwo]] org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now, after delay of 1 seconds
+[INFO ] 2021-07-05 11:14:43.278 [Quartz Scheduler [bjScheduler]] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED started.
+[INFO ] 2021-07-05 11:14:43.278 [Quartz Scheduler [schedulerTwo]] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED started.
+[INFO ] 2021-07-05 11:14:51.791 [http-nio-1939-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/tah-syn] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2021-07-05 11:14:51.792 [http-nio-1939-exec-1] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2021-07-05 11:14:51.798 [http-nio-1939-exec-1] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+[INFO ] 2021-07-05 11:14:51.821 [http-nio-1939-exec-1] com.qzsoft.tah.service.impl.BjTaskServiceImpl - 
+------同步【用户】基础数据开始----
+
+[INFO ] 2021-07-05 11:15:00.019 [schedulerTwo_Worker-1] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-05 03:15:05 
+
+
+[INFO ] 2021-07-05 11:15:00.094 [schedulerTwo_Worker-1] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:48.5 成功。。。 
+[INFO ] 2021-07-05 11:15:00.147 [schedulerTwo_Worker-1] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:15:00.193 [schedulerTwo_Worker-1] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:49.3 成功。。。 
+[INFO ] 2021-07-05 11:15:00.218 [schedulerTwo_Worker-1] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:15:00.250 [schedulerTwo_Worker-1] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: -20.9,湿度:57.1 成功。。。 
+[INFO ] 2021-07-05 11:15:00.260 [schedulerTwo_Worker-1] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:15:00.275 [schedulerTwo_Worker-1] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【报警记录】 生成成功。。。。 
+[INFO ] 2021-07-05 11:15:12.295 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:15:42.283 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:16:00.009 [schedulerTwo_Worker-2] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-05 03:16:05 
+
+
+[INFO ] 2021-07-05 11:16:00.053 [schedulerTwo_Worker-2] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:48.5 成功。。。 
+[INFO ] 2021-07-05 11:16:00.086 [schedulerTwo_Worker-2] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:16:00.116 [schedulerTwo_Worker-2] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:49.3 成功。。。 
+[INFO ] 2021-07-05 11:16:00.127 [schedulerTwo_Worker-2] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:16:12.290 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:16:42.293 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:17:00.017 [schedulerTwo_Worker-3] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-05 03:17:05 
+
+
+[INFO ] 2021-07-05 11:17:00.039 [schedulerTwo_Worker-3] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:48.5 成功。。。 
+[INFO ] 2021-07-05 11:17:00.067 [schedulerTwo_Worker-3] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:17:00.097 [schedulerTwo_Worker-3] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:49.3 成功。。。 
+[INFO ] 2021-07-05 11:17:00.107 [schedulerTwo_Worker-3] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:17:00.131 [schedulerTwo_Worker-3] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: -20.9,湿度:57.1 成功。。。 
+[INFO ] 2021-07-05 11:17:00.148 [schedulerTwo_Worker-3] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:17:00.162 [schedulerTwo_Worker-3] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【报警记录】 生成成功。。。。 
+[INFO ] 2021-07-05 11:17:11.582 [http-nio-1939-exec-2] com.qzsoft.tah.service.impl.BjTaskServiceImpl - 
+------同步【用户】基础数据开始----
+
+[INFO ] 2021-07-05 11:17:12.302 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:17:42.281 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:18:00.012 [schedulerTwo_Worker-4] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-05 03:18:05 
+
+
+[INFO ] 2021-07-05 11:18:00.040 [schedulerTwo_Worker-4] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:48.5 成功。。。 
+[INFO ] 2021-07-05 11:18:00.049 [schedulerTwo_Worker-4] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:18:00.072 [schedulerTwo_Worker-4] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:49.3 成功。。。 
+[INFO ] 2021-07-05 11:18:00.080 [schedulerTwo_Worker-4] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:18:12.290 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:18:21.592 [http-nio-1939-exec-3] com.qzsoft.tah.service.impl.BjTaskServiceImpl - 
+------同步【用户】基础数据开始----
+
+[INFO ] 2021-07-05 11:18:42.295 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:19:00.012 [schedulerTwo_Worker-5] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-05 03:19:05 
+
+
+[INFO ] 2021-07-05 11:19:00.047 [schedulerTwo_Worker-5] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:48.5 成功。。。 
+[INFO ] 2021-07-05 11:19:00.060 [schedulerTwo_Worker-5] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:19:00.098 [schedulerTwo_Worker-5] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:49.3 成功。。。 
+[INFO ] 2021-07-05 11:19:00.113 [schedulerTwo_Worker-5] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:19:00.163 [schedulerTwo_Worker-5] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: -20.9,湿度:57.1 成功。。。 
+[INFO ] 2021-07-05 11:19:00.176 [schedulerTwo_Worker-5] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:19:00.187 [schedulerTwo_Worker-5] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【报警记录】 生成成功。。。。 
+[INFO ] 2021-07-05 11:19:12.282 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:19:42.290 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:20:00.005 [schedulerTwo_Worker-6] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-05 03:20:05 
+
+
+[INFO ] 2021-07-05 11:20:00.047 [schedulerTwo_Worker-6] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:48.5 成功。。。 
+[INFO ] 2021-07-05 11:20:00.061 [schedulerTwo_Worker-6] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:20:00.168 [schedulerTwo_Worker-6] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:49.3 成功。。。 
+[INFO ] 2021-07-05 11:20:00.221 [schedulerTwo_Worker-6] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:20:12.294 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:20:42.286 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:21:00.020 [schedulerTwo_Worker-7] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-05 03:21:05 
+
+
+[INFO ] 2021-07-05 11:21:00.054 [schedulerTwo_Worker-7] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:48.5 成功。。。 
+[INFO ] 2021-07-05 11:21:00.070 [schedulerTwo_Worker-7] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:21:00.099 [schedulerTwo_Worker-7] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:49.3 成功。。。 
+[INFO ] 2021-07-05 11:21:00.111 [schedulerTwo_Worker-7] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:21:00.140 [schedulerTwo_Worker-7] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: -20.9,湿度:57.1 成功。。。 
+[INFO ] 2021-07-05 11:21:00.156 [schedulerTwo_Worker-7] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:21:00.170 [schedulerTwo_Worker-7] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【报警记录】 生成成功。。。。 
+[INFO ] 2021-07-05 11:21:03.423 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED paused.
+[INFO ] 2021-07-05 11:21:03.423 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED paused.
+[INFO ] 2021-07-05 11:21:03.423 [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2021-07-05 11:21:03.425 [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2021-07-05 11:21:03.425 [SpringContextShutdownHook] org.springframework.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+[INFO ] 2021-07-05 11:21:03.425 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED shutting down.
+[INFO ] 2021-07-05 11:21:03.425 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED paused.
+[INFO ] 2021-07-05 11:21:03.426 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED shutdown complete.
+[INFO ] 2021-07-05 11:21:03.427 [SpringContextShutdownHook] org.springframework.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+[INFO ] 2021-07-05 11:21:03.427 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED shutting down.
+[INFO ] 2021-07-05 11:21:03.427 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED paused.
+[INFO ] 2021-07-05 11:21:03.427 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED shutdown complete.
+[INFO ] 2021-07-05 11:21:03.429 [SpringContextShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:21:03.433 [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed
+[INFO ] 2021-07-05 11:21:03.433 [SpringContextShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:21:03.433 [SpringContextShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:21:03.434 [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[INFO ] 2021-07-05 11:21:03.434 [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+[INFO ] 2021-07-05 11:21:14.851 [main] com.qzsoft.tah.WsdSynApplication - Starting WsdSynApplication on DESKTOP-2S2GF81 with PID 28208 (D:\wsd\tah-collection\tah-wsd-syn\target\classes started by aq in D:\wsd)
+[INFO ] 2021-07-05 11:21:14.853 [main] com.qzsoft.tah.WsdSynApplication - The following profiles are active: dev
+[INFO ] 2021-07-05 11:21:15.607 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-05 11:21:15.662 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44ms. Found 1 JPA repository interfaces.
+[INFO ] 2021-07-05 11:21:15.663 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-05 11:21:15.718 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55ms. Found 13 JPA repository interfaces.
+[INFO ] 2021-07-05 11:21:15.719 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-05 11:21:15.720 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 0ms. Found 0 JPA repository interfaces.
+[INFO ] 2021-07-05 11:21:16.477 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2021-07-05 11:21:16.854 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1939 (http)
+[INFO ] 2021-07-05 11:21:16.930 [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1939"]
+[INFO ] 2021-07-05 11:21:16.930 [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2021-07-05 11:21:16.930 [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 2021-07-05 11:21:24.749 [main] com.qzsoft.tah.WsdSynApplication - Starting WsdSynApplication on DESKTOP-2S2GF81 with PID 25288 (D:\wsd\tah-collection\tah-wsd-syn\target\classes started by aq in D:\wsd)
+[INFO ] 2021-07-05 11:21:24.753 [main] com.qzsoft.tah.WsdSynApplication - The following profiles are active: dev
+[INFO ] 2021-07-05 11:21:25.361 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-05 11:21:25.413 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43ms. Found 1 JPA repository interfaces.
+[INFO ] 2021-07-05 11:21:25.414 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-05 11:21:25.465 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51ms. Found 13 JPA repository interfaces.
+[INFO ] 2021-07-05 11:21:25.465 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-05 11:21:25.465 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 0ms. Found 0 JPA repository interfaces.
+[INFO ] 2021-07-05 11:21:25.983 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2021-07-05 11:21:26.230 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1939 (http)
+[INFO ] 2021-07-05 11:21:26.240 [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1939"]
+[INFO ] 2021-07-05 11:21:26.241 [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2021-07-05 11:21:26.241 [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 2021-07-05 11:21:26.383 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/tah-syn] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2021-07-05 11:21:26.383 [main] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1554 ms
+[INFO ] 2021-07-05 11:21:26.610 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-05 11:21:26.674 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.4.9.Final}
+[INFO ] 2021-07-05 11:21:26.791 [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2021-07-05 11:21:26.972 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2021-07-05 11:21:27.077 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-05 11:21:27.630 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-05 11:21:27.639 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:21:27.656 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-05 11:21:27.683 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+[INFO ] 2021-07-05 11:21:27.689 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-05 11:21:27.987 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-05 11:21:27.988 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:21:28.007 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-05 11:21:28.030 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+[INFO ] 2021-07-05 11:21:28.035 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-05 11:21:28.115 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-05 11:21:28.116 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:21:28.682 [main] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+[INFO ] 2021-07-05 11:21:28.693 [main] org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[INFO ] 2021-07-05 11:21:28.694 [main] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+[INFO ] 2021-07-05 11:21:28.695 [main] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+[INFO ] 2021-07-05 11:21:28.696 [main] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerTwo' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[INFO ] 2021-07-05 11:21:28.696 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'schedulerTwo' initialized from an externally provided properties instance.
+[INFO ] 2021-07-05 11:21:28.696 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+[INFO ] 2021-07-05 11:21:28.697 [main] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@1756a471
+[INFO ] 2021-07-05 11:21:28.730 [main] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+[INFO ] 2021-07-05 11:21:28.731 [main] org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[INFO ] 2021-07-05 11:21:28.731 [main] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+[INFO ] 2021-07-05 11:21:28.731 [main] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+[INFO ] 2021-07-05 11:21:28.731 [main] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'bjScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[INFO ] 2021-07-05 11:21:28.731 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'bjScheduler' initialized from an externally provided properties instance.
+[INFO ] 2021-07-05 11:21:28.731 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+[INFO ] 2021-07-05 11:21:28.731 [main] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@29d29657
+[INFO ] 2021-07-05 11:21:28.891 [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2021-07-05 11:21:29.185 [main] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2021-07-05 11:21:29.217 [main] org.springframework.scheduling.quartz.SchedulerFactoryBean - Will start Quartz Scheduler [bjScheduler] in 1 seconds
+[INFO ] 2021-07-05 11:21:29.218 [main] org.springframework.scheduling.quartz.SchedulerFactoryBean - Will start Quartz Scheduler [schedulerTwo] in 1 seconds
+[INFO ] 2021-07-05 11:21:29.228 [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1939"]
+[INFO ] 2021-07-05 11:21:29.253 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 1939 (http) with context path '/tah-syn'
+[INFO ] 2021-07-05 11:21:29.256 [main] com.qzsoft.tah.WsdSynApplication - Started WsdSynApplication in 4.952 seconds (JVM running for 7.359)
+[INFO ] 2021-07-05 11:21:29.473 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:21:30.228 [Quartz Scheduler [schedulerTwo]] org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now, after delay of 1 seconds
+[INFO ] 2021-07-05 11:21:30.228 [Quartz Scheduler [bjScheduler]] org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now, after delay of 1 seconds
+[INFO ] 2021-07-05 11:21:30.229 [Quartz Scheduler [bjScheduler]] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED started.
+[INFO ] 2021-07-05 11:21:30.229 [Quartz Scheduler [schedulerTwo]] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED started.
+[INFO ] 2021-07-05 11:21:59.235 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:22:00.018 [schedulerTwo_Worker-1] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-05 03:22:05 
+
+
+[INFO ] 2021-07-05 11:22:00.088 [schedulerTwo_Worker-1] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:48.5 成功。。。 
+[INFO ] 2021-07-05 11:22:00.140 [schedulerTwo_Worker-1] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:22:00.174 [schedulerTwo_Worker-1] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:49.3 成功。。。 
+[INFO ] 2021-07-05 11:22:00.192 [schedulerTwo_Worker-1] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:22:12.030 [http-nio-1939-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/tah-syn] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2021-07-05 11:22:12.031 [http-nio-1939-exec-2] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2021-07-05 11:22:12.039 [http-nio-1939-exec-2] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+[INFO ] 2021-07-05 11:22:12.065 [http-nio-1939-exec-2] com.qzsoft.tah.service.impl.BjTaskServiceImpl - 
+------同步【用户】基础数据开始----
+
+[INFO ] 2021-07-05 11:22:15.080 [http-nio-1939-exec-2] com.qzsoft.tah.service.impl.BjTaskServiceImpl - 
+------同步【用户】基础数据结束----
+
+[INFO ] 2021-07-05 11:22:29.234 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:22:59.238 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:23:00.018 [schedulerTwo_Worker-2] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-05 03:23:05 
+
+
+[INFO ] 2021-07-05 11:23:00.060 [schedulerTwo_Worker-2] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:48.5 成功。。。 
+[INFO ] 2021-07-05 11:23:00.072 [schedulerTwo_Worker-2] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:23:00.100 [schedulerTwo_Worker-2] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:49.3 成功。。。 
+[INFO ] 2021-07-05 11:23:00.112 [schedulerTwo_Worker-2] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:23:00.146 [schedulerTwo_Worker-2] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: -20.9,湿度:57.1 成功。。。 
+[INFO ] 2021-07-05 11:23:00.159 [schedulerTwo_Worker-2] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:23:00.173 [schedulerTwo_Worker-2] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【报警记录】 生成成功。。。。 
+[INFO ] 2021-07-05 11:23:23.432 [http-nio-1939-exec-3] com.qzsoft.tah.service.impl.BjTaskServiceImpl - 
+------同步【用户】基础数据开始----
+
+[INFO ] 2021-07-05 11:23:29.235 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:23:59.239 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:24:00.007 [schedulerTwo_Worker-3] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-05 03:24:05 
+
+
+[INFO ] 2021-07-05 11:24:00.043 [schedulerTwo_Worker-3] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:48.5 成功。。。 
+[INFO ] 2021-07-05 11:24:00.057 [schedulerTwo_Worker-3] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:24:00.083 [schedulerTwo_Worker-3] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:49.3 成功。。。 
+[INFO ] 2021-07-05 11:24:00.095 [schedulerTwo_Worker-3] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:24:29.229 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:24:59.238 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:25:00.016 [schedulerTwo_Worker-4] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-05 03:25:05 
+
+
+[INFO ] 2021-07-05 11:25:00.051 [schedulerTwo_Worker-4] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:48.5 成功。。。 
+[INFO ] 2021-07-05 11:25:00.067 [schedulerTwo_Worker-4] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:25:00.098 [schedulerTwo_Worker-4] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:49.3 成功。。。 
+[INFO ] 2021-07-05 11:25:00.111 [schedulerTwo_Worker-4] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:25:00.147 [schedulerTwo_Worker-4] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: -20.9,湿度:57.1 成功。。。 
+[INFO ] 2021-07-05 11:25:00.161 [schedulerTwo_Worker-4] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:25:00.178 [schedulerTwo_Worker-4] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【报警记录】 生成成功。。。。 
+[INFO ] 2021-07-05 11:25:29.232 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:25:59.236 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:26:00.017 [schedulerTwo_Worker-5] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-05 03:26:05 
+
+
+[INFO ] 2021-07-05 11:26:00.058 [schedulerTwo_Worker-5] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:48.5 成功。。。 
+[INFO ] 2021-07-05 11:26:00.072 [schedulerTwo_Worker-5] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:26:00.120 [schedulerTwo_Worker-5] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:49.3 成功。。。 
+[INFO ] 2021-07-05 11:26:00.129 [schedulerTwo_Worker-5] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:26:02.890 [http-nio-1939-exec-4] com.qzsoft.tah.service.impl.BjTaskServiceImpl - 
+------同步【用户】基础数据开始----
+
+[INFO ] 2021-07-05 11:26:29.244 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:26:59.242 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:27:00.018 [schedulerTwo_Worker-6] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-05 03:27:05 
+
+
+[INFO ] 2021-07-05 11:27:00.058 [schedulerTwo_Worker-6] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:48.5 成功。。。 
+[INFO ] 2021-07-05 11:27:00.071 [schedulerTwo_Worker-6] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:27:00.103 [schedulerTwo_Worker-6] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:49.3 成功。。。 
+[INFO ] 2021-07-05 11:27:00.116 [schedulerTwo_Worker-6] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:27:00.150 [schedulerTwo_Worker-6] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: -20.9,湿度:57.1 成功。。。 
+[INFO ] 2021-07-05 11:27:00.164 [schedulerTwo_Worker-6] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:27:00.181 [schedulerTwo_Worker-6] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【报警记录】 生成成功。。。。 
+[INFO ] 2021-07-05 11:27:16.104 [http-nio-1939-exec-5] com.qzsoft.tah.service.impl.BjTaskServiceImpl - 
+------同步【用户】基础数据开始----
+
+[INFO ] 2021-07-05 11:27:33.285 [http-nio-1939-exec-5] com.qzsoft.tah.service.impl.BjTaskServiceImpl - 
+------同步【用户】基础数据结束----
+
+[INFO ] 2021-07-05 11:27:33.287 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:27:46.211 [http-nio-1939-exec-6] com.qzsoft.tah.service.impl.BjTaskServiceImpl - 
+------同步【用户】基础数据开始----
+
+[INFO ] 2021-07-05 11:28:33.207 [schedulerTwo_Worker-7] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-05 03:28:05 
+
+
+[INFO ] 2021-07-05 11:28:33.208 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:28:33.213 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:28:46.505 [schedulerTwo_Worker-7] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:48.5 成功。。。 
+[INFO ] 2021-07-05 11:30:52.859 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:30:52.865 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:30:52.867 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:30:52.868 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:30:52.874 [schedulerTwo_Worker-7] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:30:52.912 [schedulerTwo_Worker-7] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:49.3 成功。。。 
+[INFO ] 2021-07-05 11:30:52.947 [schedulerTwo_Worker-7] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:30:53.087 [schedulerTwo_Worker-8] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-05 03:30:05 
+
+
+[INFO ] 2021-07-05 11:30:53.121 [schedulerTwo_Worker-8] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:48.5 成功。。。 
+[INFO ] 2021-07-05 11:30:53.134 [schedulerTwo_Worker-8] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:30:53.165 [schedulerTwo_Worker-8] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:49.3 成功。。。 
+[INFO ] 2021-07-05 11:30:53.179 [schedulerTwo_Worker-8] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:30:53.213 [schedulerTwo_Worker-8] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: -20.9,湿度:57.1 成功。。。 
+[INFO ] 2021-07-05 11:30:53.225 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED paused.
+[INFO ] 2021-07-05 11:30:53.225 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED paused.
+[INFO ] 2021-07-05 11:30:53.225 [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2021-07-05 11:30:53.226 [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2021-07-05 11:30:53.226 [SpringContextShutdownHook] org.springframework.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+[INFO ] 2021-07-05 11:30:53.226 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED shutting down.
+[INFO ] 2021-07-05 11:30:53.226 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED paused.
+[INFO ] 2021-07-05 11:30:53.227 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED shutdown complete.
+[INFO ] 2021-07-05 11:30:53.227 [SpringContextShutdownHook] org.springframework.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+[INFO ] 2021-07-05 11:30:53.227 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED shutting down.
+[INFO ] 2021-07-05 11:30:53.227 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED paused.
+[INFO ] 2021-07-05 11:30:53.227 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED shutdown complete.
+[INFO ] 2021-07-05 11:30:53.228 [schedulerTwo_Worker-8] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:30:53.229 [SpringContextShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:30:53.235 [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed
+[INFO ] 2021-07-05 11:30:53.236 [SpringContextShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:30:53.236 [SpringContextShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:30:53.237 [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[INFO ] 2021-07-05 11:30:53.238 [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+[INFO ] 2021-07-05 11:30:53.249 [schedulerTwo_Worker-8] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【报警记录】 生成成功。。。。 
+[INFO ] 2021-07-05 11:30:53.292 [schedulerTwo_Worker-8] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-05 11:30:53.330 [schedulerTwo_Worker-8] com.alibaba.druid.pool.DruidDataSource - {dataSource-4} inited
+[INFO ] 2021-07-05 11:30:53.337 [schedulerTwo_Worker-8] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-05 11:30:53.600 [schedulerTwo_Worker-8] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-05 11:30:53.600 [schedulerTwo_Worker-8] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:30:53.682 [schedulerTwo_Worker-8] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-05 11:30:53.738 [schedulerTwo_Worker-8] com.alibaba.druid.pool.DruidDataSource - {dataSource-5} inited
+[INFO ] 2021-07-05 11:30:53.744 [schedulerTwo_Worker-8] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-05 11:30:53.947 [schedulerTwo_Worker-8] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-05 11:30:53.947 [schedulerTwo_Worker-8] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:30:53.959 [schedulerTwo_Worker-8] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-05 11:30:53.983 [schedulerTwo_Worker-8] com.alibaba.druid.pool.DruidDataSource - {dataSource-6} inited
+[INFO ] 2021-07-05 11:30:53.988 [schedulerTwo_Worker-8] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-05 11:30:54.069 [schedulerTwo_Worker-8] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-05 11:30:54.069 [schedulerTwo_Worker-8] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:32:05.729 [main] com.qzsoft.tah.WsdSynApplication - Starting WsdSynApplication on DESKTOP-2S2GF81 with PID 21248 (D:\wsd\tah-collection\tah-wsd-syn\target\classes started by aq in D:\wsd)
+[INFO ] 2021-07-05 11:32:05.732 [main] com.qzsoft.tah.WsdSynApplication - The following profiles are active: dev
+[INFO ] 2021-07-05 11:32:06.251 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-05 11:32:06.301 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41ms. Found 1 JPA repository interfaces.
+[INFO ] 2021-07-05 11:32:06.301 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-05 11:32:06.348 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46ms. Found 13 JPA repository interfaces.
+[INFO ] 2021-07-05 11:32:06.348 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-05 11:32:06.349 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 0ms. Found 0 JPA repository interfaces.
+[INFO ] 2021-07-05 11:32:06.865 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2021-07-05 11:32:07.117 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1939 (http)
+[INFO ] 2021-07-05 11:32:07.128 [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1939"]
+[INFO ] 2021-07-05 11:32:07.129 [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2021-07-05 11:32:07.129 [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 2021-07-05 11:32:07.274 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/tah-syn] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2021-07-05 11:32:07.274 [main] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1494 ms
+[INFO ] 2021-07-05 11:32:07.503 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-05 11:32:07.570 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.4.9.Final}
+[INFO ] 2021-07-05 11:32:07.691 [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2021-07-05 11:32:07.887 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2021-07-05 11:32:07.995 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-05 11:32:08.576 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-05 11:32:08.585 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:32:08.604 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-05 11:32:08.631 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+[INFO ] 2021-07-05 11:32:08.636 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-05 11:32:08.933 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-05 11:32:08.933 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:32:08.954 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-05 11:32:08.978 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+[INFO ] 2021-07-05 11:32:08.984 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-05 11:32:09.067 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-05 11:32:09.067 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:32:09.615 [main] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+[INFO ] 2021-07-05 11:32:09.625 [main] org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[INFO ] 2021-07-05 11:32:09.627 [main] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+[INFO ] 2021-07-05 11:32:09.628 [main] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+[INFO ] 2021-07-05 11:32:09.628 [main] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerTwo' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[INFO ] 2021-07-05 11:32:09.628 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'schedulerTwo' initialized from an externally provided properties instance.
+[INFO ] 2021-07-05 11:32:09.628 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+[INFO ] 2021-07-05 11:32:09.630 [main] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@245b0bd7
+[INFO ] 2021-07-05 11:32:09.660 [main] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+[INFO ] 2021-07-05 11:32:09.661 [main] org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[INFO ] 2021-07-05 11:32:09.662 [main] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+[INFO ] 2021-07-05 11:32:09.662 [main] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+[INFO ] 2021-07-05 11:32:09.662 [main] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'bjScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[INFO ] 2021-07-05 11:32:09.662 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'bjScheduler' initialized from an externally provided properties instance.
+[INFO ] 2021-07-05 11:32:09.662 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+[INFO ] 2021-07-05 11:32:09.662 [main] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@6d658aa8
+[INFO ] 2021-07-05 11:32:09.820 [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2021-07-05 11:32:10.113 [main] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2021-07-05 11:32:10.145 [main] org.springframework.scheduling.quartz.SchedulerFactoryBean - Will start Quartz Scheduler [bjScheduler] in 1 seconds
+[INFO ] 2021-07-05 11:32:10.146 [main] org.springframework.scheduling.quartz.SchedulerFactoryBean - Will start Quartz Scheduler [schedulerTwo] in 1 seconds
+[INFO ] 2021-07-05 11:32:10.154 [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1939"]
+[INFO ] 2021-07-05 11:32:10.180 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 1939 (http) with context path '/tah-syn'
+[INFO ] 2021-07-05 11:32:10.182 [main] com.qzsoft.tah.WsdSynApplication - Started WsdSynApplication in 4.874 seconds (JVM running for 6.716)
+[INFO ] 2021-07-05 11:32:10.401 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:32:11.148 [Quartz Scheduler [bjScheduler]] org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now, after delay of 1 seconds
+[INFO ] 2021-07-05 11:32:11.148 [Quartz Scheduler [schedulerTwo]] org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now, after delay of 1 seconds
+[INFO ] 2021-07-05 11:32:11.148 [Quartz Scheduler [schedulerTwo]] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED started.
+[INFO ] 2021-07-05 11:32:11.149 [Quartz Scheduler [bjScheduler]] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED started.
+[INFO ] 2021-07-05 11:32:40.160 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:32:51.927 [http-nio-1939-exec-3] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/tah-syn] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2021-07-05 11:32:51.927 [http-nio-1939-exec-3] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2021-07-05 11:32:51.933 [http-nio-1939-exec-3] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+[INFO ] 2021-07-05 11:32:51.959 [http-nio-1939-exec-3] com.qzsoft.tah.service.impl.BjTaskServiceImpl - 
+------同步【用户】基础数据开始----
+
+[INFO ] 2021-07-05 11:33:26.788 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:33:26.798 [schedulerTwo_Worker-1] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-05 03:33:05 
+
+
+[INFO ] 2021-07-05 11:33:26.872 [schedulerTwo_Worker-1] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:48.5 成功。。。 
+[INFO ] 2021-07-05 11:33:26.893 [schedulerTwo_Worker-1] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:33:26.925 [schedulerTwo_Worker-1] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:49.3 成功。。。 
+[INFO ] 2021-07-05 11:33:26.938 [schedulerTwo_Worker-1] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:33:27.181 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED paused.
+[INFO ] 2021-07-05 11:33:27.181 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED paused.
+[INFO ] 2021-07-05 11:33:27.181 [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2021-07-05 11:33:27.183 [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2021-07-05 11:33:27.183 [SpringContextShutdownHook] org.springframework.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+[INFO ] 2021-07-05 11:33:27.183 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED shutting down.
+[INFO ] 2021-07-05 11:33:27.183 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED paused.
+[INFO ] 2021-07-05 11:33:27.184 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED shutdown complete.
+[INFO ] 2021-07-05 11:33:27.184 [SpringContextShutdownHook] org.springframework.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+[INFO ] 2021-07-05 11:33:27.184 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED shutting down.
+[INFO ] 2021-07-05 11:33:27.184 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED paused.
+[INFO ] 2021-07-05 11:33:27.185 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED shutdown complete.
+[INFO ] 2021-07-05 11:33:27.187 [SpringContextShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:33:27.191 [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed
+[INFO ] 2021-07-05 11:33:27.192 [SpringContextShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:33:27.192 [SpringContextShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:33:27.192 [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[INFO ] 2021-07-05 11:33:27.193 [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+[INFO ] 2021-07-05 11:33:27.237 [schedulerTwo_Worker-1] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-05 11:33:27.268 [schedulerTwo_Worker-1] com.alibaba.druid.pool.DruidDataSource - {dataSource-4} inited
+[INFO ] 2021-07-05 11:33:27.273 [schedulerTwo_Worker-1] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-05 11:33:27.324 [schedulerTwo_Worker-1] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-05 11:33:27.324 [schedulerTwo_Worker-1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:33:27.384 [schedulerTwo_Worker-1] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-05 11:33:27.435 [schedulerTwo_Worker-1] com.alibaba.druid.pool.DruidDataSource - {dataSource-5} inited
+[INFO ] 2021-07-05 11:33:27.443 [schedulerTwo_Worker-1] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-05 11:33:27.645 [schedulerTwo_Worker-1] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-05 11:33:27.645 [schedulerTwo_Worker-1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:33:27.655 [schedulerTwo_Worker-1] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-05 11:33:27.678 [schedulerTwo_Worker-1] com.alibaba.druid.pool.DruidDataSource - {dataSource-6} inited
+[INFO ] 2021-07-05 11:33:27.683 [schedulerTwo_Worker-1] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-05 11:33:27.760 [schedulerTwo_Worker-1] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-05 11:33:27.760 [schedulerTwo_Worker-1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:34:15.200 [main] com.qzsoft.tah.WsdSynApplication - Starting WsdSynApplication on DESKTOP-2S2GF81 with PID 22368 (D:\wsd\tah-collection\tah-wsd-syn\target\classes started by aq in D:\wsd)
+[INFO ] 2021-07-05 11:34:15.204 [main] com.qzsoft.tah.WsdSynApplication - The following profiles are active: dev
+[INFO ] 2021-07-05 11:34:15.771 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-05 11:34:15.821 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41ms. Found 1 JPA repository interfaces.
+[INFO ] 2021-07-05 11:34:15.821 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-05 11:34:15.867 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46ms. Found 13 JPA repository interfaces.
+[INFO ] 2021-07-05 11:34:15.867 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-05 11:34:15.868 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 0ms. Found 0 JPA repository interfaces.
+[INFO ] 2021-07-05 11:34:16.371 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2021-07-05 11:34:16.642 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1939 (http)
+[INFO ] 2021-07-05 11:34:16.652 [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1939"]
+[INFO ] 2021-07-05 11:34:16.652 [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2021-07-05 11:34:16.653 [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 2021-07-05 11:34:16.804 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/tah-syn] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2021-07-05 11:34:16.804 [main] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1550 ms
+[INFO ] 2021-07-05 11:34:17.032 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-05 11:34:17.099 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.4.9.Final}
+[INFO ] 2021-07-05 11:34:17.224 [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2021-07-05 11:34:17.411 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2021-07-05 11:34:17.516 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-05 11:34:18.075 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-05 11:34:18.083 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:34:18.100 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-05 11:34:18.126 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+[INFO ] 2021-07-05 11:34:18.132 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-05 11:34:18.424 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-05 11:34:18.424 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:34:18.443 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-05 11:34:18.466 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+[INFO ] 2021-07-05 11:34:18.471 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-05 11:34:18.551 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-05 11:34:18.551 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:34:19.083 [main] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+[INFO ] 2021-07-05 11:34:19.093 [main] org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[INFO ] 2021-07-05 11:34:19.094 [main] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+[INFO ] 2021-07-05 11:34:19.095 [main] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+[INFO ] 2021-07-05 11:34:19.096 [main] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerTwo' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[INFO ] 2021-07-05 11:34:19.096 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'schedulerTwo' initialized from an externally provided properties instance.
+[INFO ] 2021-07-05 11:34:19.096 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+[INFO ] 2021-07-05 11:34:19.097 [main] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@4603c412
+[INFO ] 2021-07-05 11:34:19.131 [main] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+[INFO ] 2021-07-05 11:34:19.132 [main] org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[INFO ] 2021-07-05 11:34:19.132 [main] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+[INFO ] 2021-07-05 11:34:19.132 [main] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+[INFO ] 2021-07-05 11:34:19.132 [main] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'bjScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[INFO ] 2021-07-05 11:34:19.132 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'bjScheduler' initialized from an externally provided properties instance.
+[INFO ] 2021-07-05 11:34:19.132 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+[INFO ] 2021-07-05 11:34:19.132 [main] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@747f0f34
+[INFO ] 2021-07-05 11:34:19.295 [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2021-07-05 11:34:19.590 [main] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2021-07-05 11:34:19.618 [main] org.springframework.scheduling.quartz.SchedulerFactoryBean - Will start Quartz Scheduler [bjScheduler] in 1 seconds
+[INFO ] 2021-07-05 11:34:19.619 [main] org.springframework.scheduling.quartz.SchedulerFactoryBean - Will start Quartz Scheduler [schedulerTwo] in 1 seconds
+[INFO ] 2021-07-05 11:34:19.628 [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1939"]
+[INFO ] 2021-07-05 11:34:19.651 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 1939 (http) with context path '/tah-syn'
+[INFO ] 2021-07-05 11:34:19.653 [main] com.qzsoft.tah.WsdSynApplication - Started WsdSynApplication in 4.892 seconds (JVM running for 6.873)
+[INFO ] 2021-07-05 11:34:19.874 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:34:20.621 [Quartz Scheduler [bjScheduler]] org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now, after delay of 1 seconds
+[INFO ] 2021-07-05 11:34:20.621 [Quartz Scheduler [schedulerTwo]] org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now, after delay of 1 seconds
+[INFO ] 2021-07-05 11:34:20.621 [Quartz Scheduler [schedulerTwo]] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED started.
+[INFO ] 2021-07-05 11:34:20.621 [Quartz Scheduler [bjScheduler]] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED started.
+[INFO ] 2021-07-05 11:34:42.229 [http-nio-1939-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/tah-syn] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2021-07-05 11:34:42.229 [http-nio-1939-exec-2] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2021-07-05 11:34:42.237 [http-nio-1939-exec-2] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+[INFO ] 2021-07-05 11:34:42.264 [http-nio-1939-exec-2] com.qzsoft.tah.service.impl.BjTaskServiceImpl - 
+------同步【用户】基础数据开始----
+
+[INFO ] 2021-07-05 11:35:00.320 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:35:00.334 [schedulerTwo_Worker-1] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-05 03:35:05 
+
+
+[INFO ] 2021-07-05 11:35:00.413 [schedulerTwo_Worker-1] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:48.5 成功。。。 
+[INFO ] 2021-07-05 11:35:00.468 [schedulerTwo_Worker-1] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:35:00.499 [schedulerTwo_Worker-1] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:49.3 成功。。。 
+[INFO ] 2021-07-05 11:35:03.928 [schedulerTwo_Worker-1] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:35:04.060 [schedulerTwo_Worker-1] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: -20.9,湿度:57.1 成功。。。 
+[INFO ] 2021-07-05 11:35:04.076 [schedulerTwo_Worker-1] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:35:04.100 [schedulerTwo_Worker-1] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【报警记录】 生成成功。。。。 
+[INFO ] 2021-07-05 11:35:04.309 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED paused.
+[INFO ] 2021-07-05 11:35:04.309 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED paused.
+[INFO ] 2021-07-05 11:35:04.309 [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2021-07-05 11:35:04.311 [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2021-07-05 11:35:04.311 [SpringContextShutdownHook] org.springframework.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+[INFO ] 2021-07-05 11:35:04.311 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED shutting down.
+[INFO ] 2021-07-05 11:35:04.311 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED paused.
+[INFO ] 2021-07-05 11:35:04.312 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED shutdown complete.
+[INFO ] 2021-07-05 11:35:04.312 [SpringContextShutdownHook] org.springframework.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+[INFO ] 2021-07-05 11:35:04.312 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED shutting down.
+[INFO ] 2021-07-05 11:35:04.312 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED paused.
+[INFO ] 2021-07-05 11:35:04.312 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED shutdown complete.
+[INFO ] 2021-07-05 11:35:04.314 [SpringContextShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:35:04.319 [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed
+[INFO ] 2021-07-05 11:35:04.319 [SpringContextShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:35:04.320 [SpringContextShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:35:04.320 [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[INFO ] 2021-07-05 11:35:04.320 [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+[INFO ] 2021-07-05 11:35:04.364 [schedulerTwo_Worker-1] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-05 11:35:04.393 [schedulerTwo_Worker-1] com.alibaba.druid.pool.DruidDataSource - {dataSource-4} inited
+[INFO ] 2021-07-05 11:35:04.398 [schedulerTwo_Worker-1] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-05 11:35:04.422 [schedulerTwo_Worker-1] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-05 11:35:04.423 [schedulerTwo_Worker-1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:35:04.431 [schedulerTwo_Worker-1] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-05 11:35:04.472 [schedulerTwo_Worker-1] com.alibaba.druid.pool.DruidDataSource - {dataSource-5} inited
+[INFO ] 2021-07-05 11:35:04.477 [schedulerTwo_Worker-1] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-05 11:35:04.649 [schedulerTwo_Worker-1] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-05 11:35:04.649 [schedulerTwo_Worker-1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:35:04.662 [schedulerTwo_Worker-1] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-05 11:35:04.686 [schedulerTwo_Worker-1] com.alibaba.druid.pool.DruidDataSource - {dataSource-6} inited
+[INFO ] 2021-07-05 11:35:04.692 [schedulerTwo_Worker-1] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-05 11:35:04.767 [schedulerTwo_Worker-1] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-05 11:35:04.767 [schedulerTwo_Worker-1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:42:54.407 [main] com.qzsoft.tah.WsdSynApplication - Starting WsdSynApplication on DESKTOP-2S2GF81 with PID 24092 (D:\wsd\tah-collection\tah-wsd-syn\target\classes started by aq in D:\wsd)
+[INFO ] 2021-07-05 11:42:54.410 [main] com.qzsoft.tah.WsdSynApplication - The following profiles are active: dev
+[INFO ] 2021-07-05 11:42:54.957 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-05 11:42:55.008 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41ms. Found 1 JPA repository interfaces.
+[INFO ] 2021-07-05 11:42:55.008 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-05 11:42:55.056 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48ms. Found 13 JPA repository interfaces.
+[INFO ] 2021-07-05 11:42:55.056 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2021-07-05 11:42:55.057 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 0ms. Found 0 JPA repository interfaces.
+[INFO ] 2021-07-05 11:42:55.570 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2021-07-05 11:42:55.814 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1939 (http)
+[INFO ] 2021-07-05 11:42:55.823 [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1939"]
+[INFO ] 2021-07-05 11:42:55.824 [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2021-07-05 11:42:55.824 [main] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 2021-07-05 11:42:55.972 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/tah-syn] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2021-07-05 11:42:55.972 [main] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1516 ms
+[INFO ] 2021-07-05 11:42:56.196 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-05 11:42:56.263 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.4.9.Final}
+[INFO ] 2021-07-05 11:42:56.383 [main] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2021-07-05 11:42:56.571 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2021-07-05 11:42:56.678 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-05 11:42:57.248 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-05 11:42:57.257 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:42:57.276 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-05 11:42:57.303 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+[INFO ] 2021-07-05 11:42:57.309 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-05 11:42:57.625 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-05 11:42:57.625 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:42:57.647 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-05 11:42:57.671 [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+[INFO ] 2021-07-05 11:42:57.677 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-05 11:42:57.764 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-05 11:42:57.764 [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:42:58.320 [main] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+[INFO ] 2021-07-05 11:42:58.332 [main] org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[INFO ] 2021-07-05 11:42:58.333 [main] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+[INFO ] 2021-07-05 11:42:58.334 [main] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+[INFO ] 2021-07-05 11:42:58.335 [main] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerTwo' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[INFO ] 2021-07-05 11:42:58.335 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'schedulerTwo' initialized from an externally provided properties instance.
+[INFO ] 2021-07-05 11:42:58.335 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+[INFO ] 2021-07-05 11:42:58.336 [main] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@4d4bac56
+[INFO ] 2021-07-05 11:42:58.367 [main] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+[INFO ] 2021-07-05 11:42:58.368 [main] org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[INFO ] 2021-07-05 11:42:58.368 [main] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+[INFO ] 2021-07-05 11:42:58.369 [main] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+[INFO ] 2021-07-05 11:42:58.369 [main] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'bjScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[INFO ] 2021-07-05 11:42:58.369 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'bjScheduler' initialized from an externally provided properties instance.
+[INFO ] 2021-07-05 11:42:58.369 [main] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+[INFO ] 2021-07-05 11:42:58.369 [main] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@10cb5047
+[INFO ] 2021-07-05 11:42:58.529 [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2021-07-05 11:42:58.832 [main] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2021-07-05 11:42:58.863 [main] org.springframework.scheduling.quartz.SchedulerFactoryBean - Will start Quartz Scheduler [bjScheduler] in 1 seconds
+[INFO ] 2021-07-05 11:42:58.863 [main] org.springframework.scheduling.quartz.SchedulerFactoryBean - Will start Quartz Scheduler [schedulerTwo] in 1 seconds
+[INFO ] 2021-07-05 11:42:58.872 [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1939"]
+[INFO ] 2021-07-05 11:42:58.898 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 1939 (http) with context path '/tah-syn'
+[INFO ] 2021-07-05 11:42:58.900 [main] com.qzsoft.tah.WsdSynApplication - Started WsdSynApplication in 4.921 seconds (JVM running for 6.921)
+[INFO ] 2021-07-05 11:42:59.114 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:42:59.867 [Quartz Scheduler [bjScheduler]] org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now, after delay of 1 seconds
+[INFO ] 2021-07-05 11:42:59.867 [Quartz Scheduler [schedulerTwo]] org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now, after delay of 1 seconds
+[INFO ] 2021-07-05 11:42:59.868 [Quartz Scheduler [bjScheduler]] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED started.
+[INFO ] 2021-07-05 11:42:59.867 [Quartz Scheduler [schedulerTwo]] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED started.
+[INFO ] 2021-07-05 11:43:00.020 [schedulerTwo_Worker-1] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-05 03:43:05 
+
+
+[INFO ] 2021-07-05 11:43:00.084 [schedulerTwo_Worker-1] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:48.5 成功。。。 
+[INFO ] 2021-07-05 11:43:00.148 [schedulerTwo_Worker-1] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:43:00.176 [schedulerTwo_Worker-1] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:49.3 成功。。。 
+[INFO ] 2021-07-05 11:43:00.188 [schedulerTwo_Worker-1] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:43:28.043 [http-nio-1939-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/tah-syn] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2021-07-05 11:43:28.044 [http-nio-1939-exec-2] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2021-07-05 11:43:28.050 [http-nio-1939-exec-2] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+[INFO ] 2021-07-05 11:43:28.075 [http-nio-1939-exec-2] com.qzsoft.tah.service.impl.BjTaskServiceImpl - 
+------同步【用户】基础数据开始----
+
+[INFO ] 2021-07-05 11:43:28.881 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:45:04.467 [schedulerTwo_Worker-2] com.qzsoft.tah.task.ScheduledJob - 
+
+【本地平台数据拉取】 执行时间: 2021-07-05 03:45:05 
+
+
+[INFO ] 2021-07-05 11:45:04.473 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:45:04.476 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:45:04.481 [scheduling-1] com.qzsoft.tah.quartz.ScheduleRefreshDatabase - 
+
+【数据库 平台 cron表达式】 0 0/1 * * * ? * 
+
+
+[INFO ] 2021-07-05 11:45:04.585 [schedulerTwo_Worker-2] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:48.5 成功。。。 
+[INFO ] 2021-07-05 11:45:04.608 [schedulerTwo_Worker-2] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:45:04.643 [schedulerTwo_Worker-2] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: 30.6,湿度:49.3 成功。。。 
+[INFO ] 2021-07-05 11:45:04.655 [schedulerTwo_Worker-2] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:45:04.694 [schedulerTwo_Worker-2] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【更新温湿度】 温度: -20.9,湿度:57.1 成功。。。 
+[INFO ] 2021-07-05 11:45:04.709 [schedulerTwo_Worker-2] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【历史记录】 成功。。。。 
+[INFO ] 2021-07-05 11:45:04.726 [schedulerTwo_Worker-2] com.qzsoft.tah.service.impl.WsdDevTahHServiceImpl - 
+【报警记录】 生成成功。。。。 
+[INFO ] 2021-07-05 11:45:04.905 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED paused.
+[INFO ] 2021-07-05 11:45:04.905 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED paused.
+[INFO ] 2021-07-05 11:45:04.905 [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2021-07-05 11:45:04.907 [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2021-07-05 11:45:04.908 [SpringContextShutdownHook] org.springframework.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+[INFO ] 2021-07-05 11:45:04.908 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED shutting down.
+[INFO ] 2021-07-05 11:45:04.908 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED paused.
+[INFO ] 2021-07-05 11:45:04.908 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler bjScheduler_$_NON_CLUSTERED shutdown complete.
+[INFO ] 2021-07-05 11:45:04.909 [SpringContextShutdownHook] org.springframework.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+[INFO ] 2021-07-05 11:45:04.909 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED shutting down.
+[INFO ] 2021-07-05 11:45:04.909 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED paused.
+[INFO ] 2021-07-05 11:45:04.909 [SpringContextShutdownHook] org.quartz.core.QuartzScheduler - Scheduler schedulerTwo_$_NON_CLUSTERED shutdown complete.
+[INFO ] 2021-07-05 11:45:04.912 [SpringContextShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:45:04.917 [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed
+[INFO ] 2021-07-05 11:45:04.917 [SpringContextShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:45:04.917 [SpringContextShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:45:04.918 [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[INFO ] 2021-07-05 11:45:04.919 [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+[INFO ] 2021-07-05 11:45:04.965 [schedulerTwo_Worker-2] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-05 11:45:04.991 [schedulerTwo_Worker-2] com.alibaba.druid.pool.DruidDataSource - {dataSource-4} inited
+[INFO ] 2021-07-05 11:45:04.996 [schedulerTwo_Worker-2] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-05 11:45:05.025 [schedulerTwo_Worker-2] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-05 11:45:05.026 [schedulerTwo_Worker-2] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:45:05.033 [schedulerTwo_Worker-2] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-05 11:45:05.103 [schedulerTwo_Worker-2] com.alibaba.druid.pool.DruidDataSource - {dataSource-5} inited
+[INFO ] 2021-07-05 11:45:05.109 [schedulerTwo_Worker-2] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-05 11:45:05.287 [schedulerTwo_Worker-2] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-05 11:45:05.287 [schedulerTwo_Worker-2] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2021-07-05 11:45:05.301 [schedulerTwo_Worker-2] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2021-07-05 11:45:05.325 [schedulerTwo_Worker-2] com.alibaba.druid.pool.DruidDataSource - {dataSource-6} inited
+[INFO ] 2021-07-05 11:45:05.331 [schedulerTwo_Worker-2] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2021-07-05 11:45:05.402 [schedulerTwo_Worker-2] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-07-05 11:45:05.402 [schedulerTwo_Worker-2] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'

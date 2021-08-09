@@ -1,0 +1,2 @@
+[WARN ] 2021-08-01 04:57:21.675 [hutool-cron-347] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 08S01
+[WARN ] 2021-08-01 09:54:39.242 [hutool-cron-502] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 08S01

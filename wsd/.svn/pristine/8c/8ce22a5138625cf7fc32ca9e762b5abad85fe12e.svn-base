@@ -1,0 +1,108 @@
+[ERROR] 2021-04-14 15:29:30.383 [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration
+┌─────┐
+|  dataSource defined in class path resource [com/qzsoft/tah/config/DataSourceConfig.class]
+↑     ↓
+|  primaryDataSource defined in class path resource [com/qzsoft/tah/config/DataSourceConfig.class]
+↑     ↓
+|  org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker
+└─────┘
+
+
+[ERROR] 2021-04-14 15:31:52.847 [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration
+┌─────┐
+|  dataSource defined in class path resource [com/qzsoft/tah/config/DataSourceConfig.class]
+↑     ↓
+|  primaryDataSource defined in class path resource [com/qzsoft/tah/config/DataSourceConfig.class]
+↑     ↓
+|  org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker
+└─────┘
+
+
+[ERROR] 2021-04-14 15:39:53.304 [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration
+┌─────┐
+|  dataSource defined in class path resource [com/qzsoft/tah/config/DataSourceConfig.class]
+↑     ↓
+|  primaryDataSource defined in class path resource [com/qzsoft/tah/config/DataSourceConfig.class]
+↑     ↓
+|  org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker
+└─────┘
+
+
+[ERROR] 2021-04-14 15:42:02.909 [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field sysTaskDao in com.qzsoft.tah.service.impl.TaskServiceImpl required a bean named 'entityManagerFactory' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean named 'entityManagerFactory' in your configuration.
+
+[ERROR] 2021-04-14 15:48:53.483 [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method entityManagerFactory in com.qzsoft.tah.config.DataSourceConfig required a bean of type 'org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder' in your configuration.
+
+[ERROR] 2021-04-14 15:58:18.707 [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method localContainerEntityManagerFactoryBeanOne in com.qzsoft.tah.config.DataSourceConfig required a bean of type 'org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder' in your configuration.
+

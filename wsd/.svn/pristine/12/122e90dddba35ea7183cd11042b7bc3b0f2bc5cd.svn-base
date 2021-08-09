@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qzsoft.tah.mapper.WsdPtSyncUndoRecordMapper">
+
+    <insert id="save" parameterType="com.qzsoft.tah.model.WsdPtSyncUndoRecord">
+        insert into wsd_pt_sync_undo_record (id,create_time,dev_no)
+        values (#{id},#{createTime},#{devNo})
+    </insert>
+</mapper>
